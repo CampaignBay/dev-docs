@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">Campaign.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+namespace WpabCampaignBay\Core;
+
+/**
+ * The file that defines the Campaign model class.
+ *
+ * A class definition that encapsulates all data and functionality for a single discount campaign.
+ *
+ * @link       https://wpanchorbay.com
+ * @since      1.0.0
+ *
+ * @package    WPAB_CampaignBay
+ * @subpackage WPAB_CampaignBay/includes
+ */
+
+// Exit if accessed directly.
+if (!defined(&#039;ABSPATH&#039;)) {
+	exit;
+}
+
+use DateTime;
+use DateTimeZone;
+use Exception;
+use WP_Error;
+use WpabCampaignBay\Core\Validator;
+use WpabCampaignBay\Helper\Filter;
+use WpabCampaignBay\Helper\Logger;
+
+/**
+ * The Campaign model class.
+ *
+ * This class represents a single discount campaign and provides methods
+ * to create, read, update, and delete campaign data using the custom campaigns table.
+ *
+ * @since      1.0.0
+ * @package    WPAB_CampaignBay
+ * @author     WP Anchor Bay &lt;wpanchorbay@gmail.com&gt;
+ */
+class Campaign
+{
+
+	/**
+	 * The campaign ID.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @var int
+	 */
+	public $id = 0;
+
+	/**
+	 * The campaign data from the database.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @var object|null
+	 */
+	private $data;
+
+	/**
+	 * A flat list of all product and variation IDs this campaign applies to.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @var int[]
+	 */
+	private $applicable_product_ids = array();
+
+	/**
+	 * Constructor.
+	 *
+	 * @since 1.0.0
+	 * @param int|object $campaign The campaign ID or campaign data object.
+	 */
+	public function __construct($campaign)
+	{
+		if (is_object($campaign)) {
+			$this-&gt;id = $campaign-&gt;id;
+			$this-&gt;data = $campaign;
+		} elseif (is_numeric($campaign)) {
+			$this-&gt;id = absint($campaign);
+			$this-&gt;load_data();
+		}
+
+		if (!$this-&gt;data) {
+			throw new Exception(&#039;Invalid campaign provided.&#039;);
+		}
+
+
+	}
+
+
+
+	/**
+	 * Throws a validation error with a specific field message.
+	 *
+	 * @since 1.0.0
+	 * @param string $field The field name that failed validation.
+	 * @throws Exception Always throws an exception.
+	 */
+	public static function throw_validation_error($field = &#039;&#039;)
+	{
+		$message = &#039;Campaign validation failed.&#039;;
+		if (!empty($field)) {
+			$message .= &quot; Field: {$field}&quot;;
+		}
+		throw new Exception(esc_html($message));
+	}
+
+
+	/**
+	 * Creates a new campaign.
+	 *
+	 * @since 1.0.0
+	 * @param array $args The campaign arguments.
+	 * @return Campaign The created campaign object.
+	 * @throws Exception If validation fails.
+	 */
+	public static function create($args)
+	{
+		// validating main data
+		$validator = new Validator($args);
+		$rules = self::get_validation_rules();
+		// checking validation
+		if (!$validator-&gt;validate($rules)) {
+			return new WP_Error(&#039;rest_validation_error&#039;, $validator-&gt;get_first_error(), array(&#039;status&#039; =&gt; 400, &#039;details&#039; =&gt; $validator-&gt;get_errors(), &#039;data&#039; =&gt; $args));
+		}
+		// retriving validated data
+		$data = $validator-&gt;get_validated_data();
+
+		// validating tiers 
+		$tmp_tiers = array();
+		if ($data[&#039;type&#039;] === &#039;quantity&#039; || $data[&#039;type&#039;] === &#039;earlybird&#039; || $data[&#039;type&#039;] === &#039;bogo&#039;) {
+			foreach ($data[&#039;tiers&#039;] as $tier) {
+				$tier_validator = new Validator($tier);
+				$tier_rules = self::get_tiers_validation_rules($data[&#039;type&#039;]);
+				if (!$tier_validator-&gt;validate($tier_rules)) {
+					return new WP_Error(
+						&#039;rest_validation_error&#039;,
+						$tier_validator-&gt;get_first_error(),
+						array(
+							&#039;status&#039; =&gt; 400,
+							&#039;details&#039; =&gt; array(&#039;tiers&#039; =&gt; array($tier[&#039;id&#039;] =&gt; $tier_validator-&gt;get_errors())),
+							&#039;data&#039; =&gt; $tier
+						)
+					);
+				}
+
+				$tmp_tiers[] = $tier_validator-&gt;get_validated_data();
+			}
+		}
+
+
+		// validating settings
+		$validated_settings = self::get_validated_settings($data[&#039;settings&#039;] ?? array(), $data[&#039;type&#039;]);
+		if (is_wp_error($validated_settings)) {
+			return $validated_settings;
+		}
+
+		// json encoding json fields
+
+		$data[&#039;tiers&#039;] = wp_json_encode($tmp_tiers ? $tmp_tiers : []);
+		$data[&#039;target_ids&#039;] = wp_json_encode(isset($data[&#039;target_ids&#039;]) ? $data[&#039;target_ids&#039;] : &#039;[]&#039;);
+		$data[&#039;conditions&#039;] = wp_json_encode(isset($data[&#039;conditions&#039;]) ? $data[&#039;conditions&#039;] : &#039;[]&#039;);
+		$data[&#039;settings&#039;] = wp_json_encode(isset($data[&#039;settings&#039;]) ? $data[&#039;settings&#039;] : &#039;[]&#039;);
+
+		// adding other default data
+		$data[&#039;usage_count&#039;] = 0;
+		$data[&#039;date_created&#039;] = current_time(&#039;mysql&#039;);
+		$data[&#039;date_modified&#039;] = current_time(&#039;mysql&#039;);
+		$data[&#039;created_by&#039;] = get_current_user_id();
+		$data[&#039;updated_by&#039;] = get_current_user_id();
+		try {
+			global $wpdb;
+			$table_name = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+			$formats = array(
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%f&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%d&#039;,
+				&#039;%d&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%d&#039;,
+				&#039;%d&#039;
+			);
+
+			//phpcs:ignore
+			$result = $wpdb-&gt;insert($table_name, $data, $formats);
+
+			if (false === $result) {
+				throw new Exception(&#039;Failed to create campaign.&#039;);
+			}
+
+			$campaign_id = $wpdb-&gt;insert_id;
+			$campaign = new self($campaign_id);
+
+			/**
+			 * Fires after a new campaign is created and all its data is saved.
+			 *
+			 * @since 1.0.0
+			 * @hook campaignbay_campaign_save
+			 * 
+			 * @param int      $campaign_id The ID of the new campaign.
+			 * @param Campaign $campaign    The campaign object.
+			 */
+			do_action(&#039;campaignbay_campaign_save&#039;, $campaign_id, $campaign);
+
+			// Log the activity.
+			Logger::get_instance()-&gt;log(
+				&#039;campaign_created&#039;,
+				&#039;created&#039;,
+				array(
+					&#039;campaign_id&#039; =&gt; $campaign-&gt;get_id(),
+					&#039;extra_data&#039; =&gt; array(
+						&#039;title&#039; =&gt; $campaign-&gt;get_title(),
+					)
+				)
+			);
+
+			return $campaign;
+		} catch (Exception $e) {
+			wpab_campaignbay_log(&#039;Error creating campaign: &#039; . $e-&gt;getMessage(), &#039;ERROR&#039;);
+			return new WP_Error(&#039;rest_cannot_create&#039;, __(&#039;Cannot create campaign.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 500, &#039;error&#039; =&gt; $e-&gt;getMessage()));
+		}
+	}
+
+
+
+	/**
+	 * Updates the campaign with new data.
+	 *
+	 * @since 1.0.0
+	 * @param array $args The campaign arguments to update.
+	 * @return bool True on success, false on failure.
+	 */
+	public function update($args, $partial = false)
+	{
+		if ($partial) {
+			$args = array_merge((array) $this-&gt;data, $args);
+		}
+		$validator = new Validator($args);
+		$rules = self::get_validation_rules();
+
+		if (!$validator-&gt;validate($rules)) {
+			//phpcs:ignore
+			return new WP_Error(&#039;rest_validation_error&#039;, $validator-&gt;get_first_error(), array(&#039;status&#039; =&gt; 400, &#039;details&#039; =&gt; $validator-&gt;get_errors(), &#039;data&#039; =&gt; $args));
+		}
+		$data = $validator-&gt;get_validated_data();
+		// validating tiers
+		$tmp_tiers = array();
+		if ($data[&#039;type&#039;] === &#039;quantity&#039; || $data[&#039;type&#039;] === &#039;earlybird&#039; || $data[&#039;type&#039;] === &#039;bogo&#039;) {
+			foreach ($data[&#039;tiers&#039;] as $tier) {
+				$tier_validator = new Validator($tier);
+				$tier_rules = self::get_tiers_validation_rules($data[&#039;type&#039;]);
+				if (!$tier_validator-&gt;validate($tier_rules)) {
+					return new WP_Error(
+						&#039;rest_validation_error&#039;,
+						$tier_validator-&gt;get_first_error(),
+						array(
+							&#039;status&#039; =&gt; 400,
+							&#039;details&#039; =&gt; array(&#039;tiers&#039; =&gt; array($tier[&#039;id&#039;] =&gt; $tier_validator-&gt;get_errors())),
+							&#039;data&#039; =&gt; $tier
+						)
+					);
+				}
+				$tmp_tiers[] = $tier_validator-&gt;get_validated_data();
+			}
+		}
+		// validating settings
+		$validated_settings = $this-&gt;get_validated_settings($data[&#039;settings&#039;] ?? array(), $data[&#039;type&#039;]);
+		if (is_wp_error($validated_settings)) {
+			return $validated_settings;
+		}
+		// json encoding json fields
+		$data[&#039;target_ids&#039;] = isset($data[&#039;target_ids&#039;]) ? wp_json_encode($data[&#039;target_ids&#039;]) : wp_json_encode($this-&gt;data-&gt;target_ids ?? &#039;[]&#039;);
+		$data[&#039;settings&#039;] = $validated_settings ? wp_json_encode($validated_settings) : wp_json_encode($this-&gt;data-&gt;settings ?? &#039;[]&#039;);
+		$data[&#039;conditions&#039;] = isset($data[&#039;conditions&#039;]) ? wp_json_encode($data[&#039;conditions&#039;]) : wp_json_encode($this-&gt;data-&gt;conditions ?? &#039;[]&#039;);
+		$data[&#039;tiers&#039;] = wp_json_encode(isset($tmp_tiers) ? $tmp_tiers : $this-&gt;data-&gt;tiers ?? &#039;[]&#039;);
+		// adding other default data
+		$data[&#039;date_modified&#039;] = current_time(&#039;mysql&#039;);
+		$data[&#039;updated_by&#039;] = get_current_user_id();
+
+		try {
+
+			global $wpdb;
+			$table_name = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+			$formats = array();
+			$formats = array(
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%f&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%s&#039;,
+				&#039;%d&#039;,
+				&#039;%s&#039;,
+				&#039;%d&#039;
+			);
+			if (empty($data)) {
+				return true;
+			}
+
+			//phpcs:ignore
+			$result = $wpdb-&gt;update(
+				$table_name,
+				$data,
+				array(&#039;id&#039; =&gt; $this-&gt;id),
+				$formats,
+				array(&#039;%d&#039;)
+			);
+			if (is_wp_error($result) || false === $result) {
+				return false;
+			}
+
+			// Reload data
+			$this-&gt;load_data();
+
+			/**
+			 * Fires after a campaign is updated and all its data is saved.
+			 *
+			 * @since 1.0.0
+			 * @hook campaignbay_campaign_save
+			 * 
+			 * @param int      $campaign_id The ID of the updated campaign.
+			 * @param Campaign $campaign    The campaign object.
+			 */
+			do_action(&#039;campaignbay_campaign_save&#039;, $this-&gt;id, $this);
+
+			// Log the activity.
+			Logger::get_instance()-&gt;log(
+				&#039;campaign_updated&#039;,
+				&#039;updated&#039;,
+				array(
+					&#039;campaign_id&#039; =&gt; $this-&gt;get_id(),
+					&#039;extra_data&#039; =&gt; array(
+						&#039;title&#039; =&gt; $this-&gt;get_title(),
+					)
+				)
+			);
+
+			return true;
+		} catch (Exception $e) {
+			wpab_campaignbay_log(&#039;Error updating campaign: &#039; . $e-&gt;getMessage(), &#039;ERROR&#039;);
+			return new WP_Error(&#039;rest_cannot_update&#039;, __(&#039;Cannot update campaign.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 500, &#039;error&#039; =&gt; $e-&gt;getMessage()));
+		}
+	}
+
+	/**
+	 * Defines the primary validation rules for a campaign&#039;s data.
+	 *
+	 * This static method returns an associative array where each key represents a
+	 * campaign property and the value is a string of validation rules. These rules
+	 * are used to ensure data integrity before creating or updating a campaign.
+	 * The rules are filterable to allow for extensibility.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @return array The array of validation rules for a campaign.
+	 */
+	private static function get_validation_rules()
+	{
+		$rules = [
+			&#039;title&#039; =&gt; &#039;required|max:255&#039;,
+			&#039;type&#039; =&gt; &#039;required|in:earlybird,scheduled,quantity,bogo&#039;,
+			&#039;status&#039; =&gt; &#039;required|in:active,inactive,scheduled,expired&#039;,
+
+			&#039;discount_type&#039; =&gt; &#039;nullable|in:percentage,fixed&#039;,
+			&#039;discount_value&#039; =&gt; &#039;required_if:type,scheduled|numeric&#039;,
+			&#039;tiers&#039; =&gt; &#039;nullable|array&#039;,
+
+			&#039;target_type&#039; =&gt; &#039;nullable|in:entire_store,category,product,tag&#039;,
+			&#039;target_ids&#039; =&gt; &#039;required_if:target_type,category,product,tag|array_of_integers&#039;,
+			&#039;exclude_sale_items&#039; =&gt; &#039;required|boolean&#039;,
+			&#039;is_exclude&#039; =&gt; &#039;nullable|boolean&#039;,
+
+			&#039;schedule_enabled&#039; =&gt; &#039;boolean||required_if:status,scheduled&#039;,
+			&#039;start_datetime&#039; =&gt; &#039;datetime|required_if:status,scheduled&#039;,
+			&#039;end_datetime&#039; =&gt; &#039;datetime|nullable&#039;,
+
+			&#039;conditions&#039; =&gt; &#039;nullable|array&#039;,
+			&#039;settings&#039; =&gt; &#039;nullable|array&#039;,
+			&#039;usage_limit&#039; =&gt; &#039;nullable|integer&#039;
+		];
+		/**
+		 * Filters the main validation rules for a campaign.
+		 *
+		 * @since 1.0.0
+		 * @hook campaignbay_get_campaign_validation_rules
+		 *
+		 * @param array $rules The array of validation rules.
+		 */
+		return apply_filters(&#039;campaignbay_get_campaign_validation_rules&#039;, $rules);
+	}
+
+	/**
+	 * Defines the validation rules for the &#039;tiers&#039; array, based on the campaign type.
+	 *
+	 * This static method returns a specific set of validation rules for the items
+	 * within the &#039;tiers&#039; array. The rules differ depending on whether the campaign
+	 * is a &#039;quantity&#039;, &#039;earlybird&#039;, or &#039;bogo&#039; type.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param string $type The type of the campaign (e.g., &#039;quantity&#039;, &#039;earlybird&#039;, &#039;bogo&#039;).
+	 * @return array The array of validation rules for a single tier.
+	 */
+	private static function get_tiers_validation_rules($type)
+	{
+		if ($type === &#039;quantity&#039;) {
+			$rules = [
+				&#039;id&#039; =&gt; &#039;nullable|integer&#039;,
+				&#039;min&#039; =&gt; &#039;required|integer|min:1|gte:previous_tier_max&#039;,
+				&#039;max&#039; =&gt; &#039;required|integer|min:1|gte:min&#039;,
+				&#039;value&#039; =&gt; &#039;required|numeric|min:0|max_if:type,percentage,100&#039;,
+				&#039;type&#039; =&gt; &#039;required|in:percentage,currency&#039;,
+			];
+		} elseif ($type === &#039;earlybird&#039;) {
+			$rules = [
+				&#039;id&#039; =&gt; &#039;nullable|integer&#039;,
+				&#039;quantity&#039; =&gt; &#039;required|integer|min:1&#039;,
+				&#039;value&#039; =&gt; &#039;required|numeric|min:0|max_if:type,percentage,100&#039;,
+				&#039;type&#039; =&gt; &#039;required|in:percentage,currency&#039;,
+				&#039;total&#039; =&gt; &#039;required|integer|min:0&#039;
+			];
+		} elseif ($type === &#039;bogo&#039;) {
+			$rules = [
+				&#039;buy_quantity&#039; =&gt; &#039;required|integer|min:1&#039;,
+				&#039;get_quantity&#039; =&gt; &#039;required|integer|min:1&#039;,
+			];
+		}
+
+		/**
+		 * Filters the tier-specific validation rules for a campaign.
+		 *
+		 * @since 1.0.0
+		 * @hook campaignbay_get_tiers_validation_rules
+		 *
+		 * @param array  $rules The array of validation rules for a tier.
+		 * @param string $type  The type of the campaign being validated.
+		 */
+		return apply_filters(&#039;campaignbay_get_tiers_validation_rules&#039;, $rules, $type);
+	}
+
+	/**
+	 * Deletes a campaign.
+	 *
+	 * @since 1.0.0
+	 * @param int  $campaign_id The campaign ID to delete.
+	 * @param bool $force_delete Whether to force delete (unused for compatibility).
+	 * @return bool True on success, false on failure.
+	 */
+	public static function delete($campaign_id, $force_delete = true)
+	{
+		$campaign = new self($campaign_id);
+		$title = $campaign-&gt;get_title();
+
+		global $wpdb;
+		$table_name = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+		/**
+		 * Fires before a campaign is deleted.
+		 *
+		 * @since 1.0.0
+		 * @hook campaignbay_before_campaign_delete
+		 * 
+		 * @param int $campaign_id The ID of the deleted campaign.
+		 */
+		do_action(&#039;campaignbay_before_campaign_delete&#039;, $campaign_id);
+
+		//phpcs:ignore
+		$result = $wpdb-&gt;delete(
+			$table_name,
+			array(&#039;id&#039; =&gt; $campaign_id),
+			array(&#039;%d&#039;)
+		);
+
+		/**
+		 * Fires after a campaign is deleted.
+		 * 
+		 * @since 1.0.0
+		 * @hook campaignbay_campaign_delete
+		 *
+		 * @param int $campaign_id The ID of the deleted campaign.
+		 */
+		do_action(&#039;campaignbay_campaign_delete&#039;, $campaign_id);
+
+		// Log the activity.
+		Logger::get_instance()-&gt;log(
+			&#039;campaign_deleted&#039;,
+			&#039;deleted&#039;,
+			array(
+				&#039;campaign_id&#039; =&gt; $campaign_id,
+				&#039;extra_data&#039; =&gt; array(
+					&#039;title&#039; =&gt; $title,
+				)
+			)
+		);
+
+		return false !== $result;
+	}
+
+
+	public static function get_validated_settings($settings, $type)
+	{
+		if ($settings === null || !is_array($settings) || empty($settings)) {
+			return null;
+		}
+		$validator = new Validator($settings);
+		if ($type === &#039;scheduled&#039; || $type === &#039;earlybird&#039;) {
+			$rules = [
+				&#039;display_as_regular_price&#039; =&gt; &#039;nullable|boolean&#039;,
+				&#039;message_format&#039; =&gt; &#039;nullable|string&#039;,
+			];
+		} elseif ($type === &#039;quantity&#039;) {
+			$rules = [
+				&#039;enable_quantity_table&#039; =&gt; &#039;nullable|boolean&#039;,
+				&#039;apply_as&#039; =&gt; &#039;nullable|string|in:line_total,fee,coupon&#039;,
+				&#039;cart_quantity_message_format&#039; =&gt; &#039;nullable|string&#039;,
+			];
+		} elseif ($type === &#039;bogo&#039;) {
+			$rules = [
+				&#039;auto_add_free_product&#039; =&gt; &#039;nullable|boolean&#039;,
+				&#039;apply_as&#039; =&gt; &#039;nullable|string|in:line_total,fee&#039;,
+				&#039;bogo_banner_message_format&#039; =&gt; &#039;nullable|string&#039;,
+				&#039;cart_bogo_message_format&#039; =&gt; &#039;nullable|string&#039;,
+				&#039;bogo_cart_message_location&#039; =&gt; &#039;nullable|string|in:line_item_name,notice,dont_show&#039;,
+			];
+		}
+		if (!$validator-&gt;validate($rules)) {
+			return new WP_Error(
+				&#039;rest_validation_error&#039;,
+				$validator-&gt;get_first_error(),
+				array(
+					&#039;status&#039; =&gt; 400,
+					&#039;details&#039; =&gt; array(&#039;settings&#039; =&gt; $validator-&gt;get_errors())
+				)
+			);
+		}
+
+		return $validator-&gt;get_validated_data();
+	}
+
+
+	/**
+	 * Getters for core properties.
+	 */
+	/**
+	 * Gets the raw campaign data object.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return object|null The campaign data object.
+	 */
+	public function get_data()
+	{
+		return $this-&gt;data;
+	}
+	/**
+	 * Gets the campaign ID.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return int The campaign ID.
+	 */
+	public function get_id()
+	{
+		return $this-&gt;id;
+	}
+
+	/**
+	 * Gets the campaign title.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return int The campaign title.
+	 */
+	public function get_title()
+	{
+		return $this-&gt;data-&gt;title;
+	}
+
+	/**
+	 * Gets the campaign status.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return int The campaign status.
+	 */
+	public function get_status()
+	{
+		return $this-&gt;data-&gt;status;
+	}
+
+	public function set_status($status)
+	{
+		if (empty($status)) {
+			return false;
+		}
+		$allowed_statuses = array(&#039;active&#039;, &#039;inactive&#039;, &#039;scheduled&#039;, &#039;expired&#039;);
+		if (!in_array($status, $allowed_statuses, true)) {
+			wpab_campaignbay_log(
+				// Translators: %s is the invalid status provided.
+				sprintf(__(&#039;Invalid status &quot;%s&quot; provided. Status must be one of: active, inactive, scheduled, expired.&#039;, &#039;campaignbay&#039;), $status)
+			);
+			return false;
+		}
+
+		try {
+
+			global $wpdb;
+			$table_name = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+
+			//phpcs:ignore
+			$result = $wpdb-&gt;update(
+				$table_name,
+				array(
+					&#039;status&#039; =&gt; $status,
+				),
+				array(
+					&#039;id&#039; =&gt; $this-&gt;id,
+				),
+				array(
+					&#039;%s&#039;,
+				),
+				array(
+					&#039;%d&#039;,
+				)
+			);
+			if (is_wp_error($result) || false === $result) {
+				return false;
+			}
+
+			// Reload data
+			$this-&gt;load_data();
+
+			/**
+			 * Fires after a campaign is updated and all its data is saved.
+			 * 
+			 * @since 1.0.0
+			 * @hook campaignbay_campaign_save
+			 *
+			 * @param int      $campaign_id The ID of the updated campaign.
+			 * @param Campaign $campaign    The campaign object.
+			 */
+			do_action(&#039;campaignbay_campaign_save&#039;, $this-&gt;id, $this);
+
+			// Log the activity.
+			Logger::get_instance()-&gt;log(
+				&#039;campaign_updated&#039;,
+				&#039;updated&#039;,
+				array(
+					&#039;campaign_id&#039; =&gt; $this-&gt;get_id(),
+					&#039;extra_data&#039; =&gt; array(
+						&#039;title&#039; =&gt; $this-&gt;get_title(),
+					)
+				)
+			);
+
+			return true;
+		} catch (Exception $e) {
+			wpab_campaignbay_log(&#039;Error updating campaign: &#039; . $e-&gt;getMessage(), &#039;ERROR&#039;);
+			return new WP_Error(&#039;rest_cannot_update&#039;, __(&#039;Cannot update campaign.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 500, &#039;error&#039; =&gt; $e-&gt;getMessage()));
+		}
+	}
+
+
+	/**
+	 * Gets the campaign type.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return int The campaign type.
+	 */
+	public function get_type()
+	{
+		return $this-&gt;data-&gt;type;
+	}
+
+	/**
+	 * Gets the discount type.
+	 *
+	 * @since 1.0.0
+	 * @return string|null The discount type.
+	 */
+	public function get_discount_type()
+	{
+		return $this-&gt;data-&gt;discount_type ?? null;
+	}
+
+	/**
+	 * Gets the discount value.
+	 *
+	 * @since 1.0.0
+	 * @return float|null The discount value.
+	 */
+	public function get_discount_value()
+	{
+		return isset($this-&gt;data-&gt;discount_value) ? floatval($this-&gt;data-&gt;discount_value) : null;
+	}
+
+	/**
+	 * Gets the campaign tiers.
+	 *
+	 * @since 1.0.0
+	 * @return array The campaign tiers.
+	 */
+	public function get_tiers()
+	{
+		return $this-&gt;data-&gt;tiers ?? array();
+	}
+
+	/**
+	 * Gets the campaign conditions.
+	 *
+	 * @since 1.0.0
+	 * @return array The campaign conditions.
+	 */
+	public function get_conditions()
+	{
+		if (is_string($this-&gt;data-&gt;conditions))
+			return json_decode($this-&gt;data-&gt;conditions, true) ?? array();
+		return $this-&gt;data-&gt;conditions ?? array();
+	}
+
+	/**
+	 * Gets the campaign settings.
+	 *
+	 * @since 1.0.0
+	 * @return array The campaign settings.
+	 */
+	public function get_settings()
+	{
+		if (is_string($this-&gt;data-&gt;settings))
+			return json_decode($this-&gt;data-&gt;settings, true) ?? array();
+		return $this-&gt;data-&gt;settings ?? array();
+	}
+
+	/**
+	 * Gets the target type.
+	 *
+	 * @since 1.0.0
+	 * @return string|null The target type.
+	 */
+	public function get_target_type()
+	{
+		return $this-&gt;data-&gt;target_type ?? null;
+	}
+
+	/**
+	 * Gets the target IDs.
+	 *
+	 * @since 1.0.0
+	 * @return array The target IDs.
+	 */
+	public function get_target_ids()
+	{
+		return $this-&gt;data-&gt;target_ids ?? array();
+	}
+
+	/**
+	 * Gets whether sale items are excluded.
+	 *
+	 * @since 1.0.0
+	 * @return bool True if sale items are excluded, false otherwise.
+	 */
+	public function get_exclude_sale_items()
+	{
+		return !empty($this-&gt;data-&gt;exclude_sale_items);
+	}
+
+	/**
+	 * Gets whether products are excluded (is_exclude).
+	 *
+	 * @since 1.0.0
+	 * @return bool True if products are excluded, false otherwise.
+	 */
+	public function get_is_exclude()
+	{
+		return !empty($this-&gt;data-&gt;is_exclude);
+	}
+
+	/**
+	 * Gets the usage limit.
+	 *
+	 * @since 1.0.0
+	 * @return int|null The usage limit, or null if unlimited.
+	 */
+	public function get_usage_limit()
+	{
+		return isset($this-&gt;data-&gt;usage_limit) ? intval($this-&gt;data-&gt;usage_limit) : null;
+	}
+
+	/**
+	 * Gets whether scheduling is enabled.
+	 *
+	 * @since 1.0.0
+	 * @return bool True if scheduling is enabled, false otherwise.
+	 */
+	public function get_schedule_enabled()
+	{
+		return !empty($this-&gt;data-&gt;schedule_enabled);
+	}
+
+
+
+	/**
+	 * Gets the start datetime string.
+	 *
+	 * @since 1.0.0
+	 * @return string|null The start datetime in &#039;Y-m-d H:i:s&#039; format, or null if not set.
+	 */
+	public function get_start_datetime()
+	{
+		if (empty($this-&gt;data-&gt;start_datetime)) {
+			return null;
+		}
+		return $this-&gt;data-&gt;start_datetime;
+	}
+
+	/**
+	 * Gets the end datetime string.
+	 *
+	 * @since 1.0.0
+	 * @return string|null The end datetime in &#039;Y-m-d H:i:s&#039; format, or null if not set.
+	 */
+	public function get_end_datetime()
+	{
+		if (empty($this-&gt;data-&gt;end_datetime)) {
+			return null;
+		}
+		return $this-&gt;data-&gt;end_datetime;
+	}
+
+	public function get_utc_time($date_string)
+	{
+
+		if (empty($date_string)) {
+			return null;
+		}
+
+		try {
+			$date = new DateTime($date_string, new DateTimeZone(wp_timezone_string()));
+			$date-&gt;setTimezone(new DateTimeZone(&#039;UTC&#039;));
+			return $date-&gt;format(&#039;Y-m-d H:i:s&#039;);
+		} catch (Exception $e) {
+			return null;
+		}
+	}
+
+	public function get_time_stamp($date_string)
+	{
+		$utc_datetime = $this-&gt;get_utc_time($date_string);
+		return $utc_datetime ? strtotime($utc_datetime) : null;
+	}
+
+	/**
+	 * Gets the start datetime string and converts it to the UTC timezone.
+	 *
+	 * @since 1.0.0
+	 * @return string|null The start datetime in &#039;Y-m-d H:i:s&#039; format (UTC), or null if not set.
+	 */
+	public function get_start_datetime_utc()
+	{
+		$start_datetime_site = $this-&gt;data-&gt;start_datetime;
+
+		if (empty($start_datetime_site)) {
+			return null;
+		}
+
+		try {
+			$date = new DateTime($start_datetime_site, new DateTimeZone(wp_timezone_string()));
+			$date-&gt;setTimezone(new DateTimeZone(&#039;UTC&#039;));
+			return $date-&gt;format(&#039;Y-m-d H:i:s&#039;);
+		} catch (Exception $e) {
+			wpab_campaignbay_log(&#039;Invalid start_datetime format for campaign #&#039; . $this-&gt;id, &#039;ERROR&#039;);
+			return null;
+		}
+	}
+
+	/**
+	 * Gets the end datetime string and converts it to the UTC timezone.
+	 *
+	 * @since 1.0.0
+	 * @return string|null The end datetime in &#039;Y-m-d H:i:s&#039; format (UTC), or null if not set.
+	 */
+	public function get_end_datetime_utc()
+	{
+		$end_datetime_site = $this-&gt;data-&gt;end_datetime;
+
+		if (empty($end_datetime_site)) {
+			return null;
+		}
+
+		try {
+			$date = new DateTime($end_datetime_site, new DateTimeZone(wp_timezone_string()));
+			$date-&gt;setTimezone(new DateTimeZone(&#039;UTC&#039;));
+			return $date-&gt;format(&#039;Y-m-d H:i:s&#039;);
+		} catch (Exception $e) {
+			wpab_campaignbay_log(&#039;Invalid end_datetime format for campaign #&#039; . $this-&gt;id, &#039;ERROR&#039;);
+			return null;
+		}
+	}
+
+	/**
+	 * Gets the start datetime as a UTC Unix timestamp.
+	 *
+	 * @since 1.0.0
+	 * @return int|null The Unix timestamp, or null if no start date is set.
+	 */
+	public function get_start_timestamp()
+	{
+		$utc_datetime = $this-&gt;get_start_datetime_utc();
+		return $utc_datetime ? strtotime($utc_datetime) : null;
+	}
+
+	/**
+	 * Gets the end datetime as a UTC Unix timestamp.
+	 *
+	 * @since 1.0.0
+	 * @return int|null The Unix timestamp, or null if no end date is set.
+	 */
+	public function get_end_timestamp()
+	{
+		$utc_datetime = $this-&gt;get_end_datetime_utc();
+		return $utc_datetime ? strtotime($utc_datetime) : null;
+	}
+
+	/**
+	 * Gets the last modified date of the campaign.
+	 *
+	 * @since 1.0.0
+	 * @return string|null The last modified date.
+	 */
+	public function get_date_modified()
+	{
+		return $this-&gt;data-&gt;date_modified ?: null;
+	}
+
+
+	/**
+	 * Gets the current usage count for the campaign.
+	 *
+	 * @since 1.0.0
+	 * @return int The number of times the campaign has been used on successful orders.
+	 */
+	public function get_usage_count()
+	{
+		return (int) $this-&gt;data-&gt;usage_count;
+	}
+
+
+	/**
+	 * Load campaign data from the database.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 */
+	private function load_data()
+	{
+		global $wpdb;
+		$table_name = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+		//phpcs:ignore
+		$this-&gt;data = $wpdb-&gt;get_row(
+			$wpdb-&gt;prepare(
+				//phpcs:ignore
+				&quot;SELECT * FROM {$table_name} WHERE id = %d&quot;,
+				$this-&gt;id
+			)
+		);
+
+		// Decode JSON fields
+		if ($this-&gt;data) {
+			$this-&gt;data-&gt;target_ids = !empty($this-&gt;data-&gt;target_ids) ? json_decode($this-&gt;data-&gt;target_ids, true) : array();
+			$this-&gt;data-&gt;tiers = !empty($this-&gt;data-&gt;tiers) ? json_decode($this-&gt;data-&gt;tiers, true) : array();
+			$this-&gt;data-&gt;conditions = !empty($this-&gt;data-&gt;conditions) ? json_decode($this-&gt;data-&gt;conditions, true) : array();
+			$this-&gt;data-&gt;settings = !empty($this-&gt;data-&gt;settings) ? json_decode($this-&gt;data-&gt;settings, true) : array();
+		}
+	}
+
+
+
+
+
+	/**
+	 * Increments the usage count for the campaign.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return bool True on success, false on failure.
+	 */
+	public function increment_usage_count()
+	{
+		global $wpdb;
+		$campaigns_table = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+		//phpcs:ignore 
+		$result = $wpdb-&gt;query(
+			$wpdb-&gt;prepare(
+				//phpcs:ignore
+				&quot;UPDATE {$campaigns_table}
+             SET 
+                usage_count = usage_count + 1,
+                status = CASE 
+                            WHEN usage_limit IS NOT NULL AND usage_limit &gt; 0 AND (usage_count + 1) &gt;= usage_limit 
+                            THEN &#039;expired&#039; 
+                            ELSE status 
+                         END
+             WHERE id = %d&quot;,
+				$this-&gt;id
+			)
+		);
+
+		if (is_wp_error($result) || false === $result) {
+			wpab_campaignbay_log(&#039;Failed to increment usage count for campaign: #&#039; . $this-&gt;get_id(), &#039;ERROR&#039;);
+			return false;
+		}
+
+		// --- Sync the local object with the new data ---
+		// Instead of a full reload, just update the properties we know have changed.
+		$this-&gt;data-&gt;usage_count = (int) $this-&gt;data-&gt;usage_count + 1;
+
+		// Check if the status should now be &#039;expired&#039; on the object
+		if ($this-&gt;data-&gt;usage_limit !== null &amp;&amp; $this-&gt;data-&gt;usage_limit &gt; 0 &amp;&amp; $this-&gt;data-&gt;usage_count &gt;= $this-&gt;data-&gt;usage_limit) {
+			$this-&gt;data-&gt;status = &#039;expired&#039;;
+		}
+
+		wpab_campaignbay_log(&#039;Usage count incremented for campaign: #&#039; . $this-&gt;get_id() . &#039; &#039; . $this-&gt;get_title() . &#039; - New count: &#039; . $this-&gt;data-&gt;usage_count, &#039;DEBUG&#039;);
+
+		/**
+		 * Fires after a campaign&#039;s usage count is updated.
+		 * 
+		 * @since 1.0.0
+		 * @hook campaignbay_campaign_usage_incremented
+		 *
+		 * @param int      $campaign_id The ID of the updated campaign.
+		 * @param Campaign $campaign    The campaign object with the new usage count.
+		 */
+		do_action(&#039;campaignbay_campaign_usage_incremented&#039;, $this-&gt;id, $this);
+
+		return true;
+	}
+
+
+	/**
+	 * Checks if this campaign applies to a specific product.
+	 *
+	 * @since 1.0.0
+	 * @param int|WC_Product $product The product ID or WC_Product object.
+	 * @return bool True if the campaign applies to the product, false otherwise.
+	 */
+	public function is_applicable_to_product($product)
+	{
+		return Filter::get_instance()-&gt;match($product, $this);
+	}
+
+
+}
+</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

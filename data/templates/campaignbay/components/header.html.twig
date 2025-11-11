@@ -1,0 +1,20 @@
+<header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="{{ path("/index.html") }}"><img src="{{ path('images/logo.png') }}" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="{{ path('hooks/hooks.html') }}">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="{{ path("/index.html") }}">{{ project.name }}</a></h1>
+        {{ include('components/search.html.twig') }}
+    </section>
+</div>

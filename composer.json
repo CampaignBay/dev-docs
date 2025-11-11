@@ -1,0 +1,19 @@
+{
+    "name": "AnchorBay/campaignbay/dev/docs",
+    "description": "CampaignBay Dev Docs Generator",
+    "homepage": "https://wpanchorbay.com/",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "3.0.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}

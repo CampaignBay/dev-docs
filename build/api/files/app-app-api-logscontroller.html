@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">LogsController.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+namespace WpabCampaignBay\Api;
+
+// Exit if accessed directly.
+if (!defined(&#039;ABSPATH&#039;)) {
+	exit;
+}
+
+// Import WordPress REST API classes
+
+use WP_Error;
+use WP_REST_Request;
+use WP_REST_Response;
+use WP_REST_Server;
+
+/**
+ * The REST API Controller for viewing logs.
+ *
+ * @since      1.0.0
+ * @package    WPAB_CampaignBay
+ * @author     WP Anchor Bay &lt;wpanchorbay@gmail.com&gt;
+ */
+class LogsController extends ApiController
+{
+
+	/**
+	 * The single instance of the class.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @var LogsController
+	 */
+	private static $instance = null;
+
+	/**
+	 * Gets an instance of this object.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return LogsController
+	 */
+	public static function get_instance()
+	{
+		// Store the instance locally to avoid private static replication.
+		if (null === self::$instance) {
+			self::$instance = new self();
+		}
+		return self::$instance;
+	}
+
+	/**
+	 * Initialize the class.
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function run()
+	{
+		$this-&gt;rest_base = &#039;logs&#039;;
+		add_action(&#039;rest_api_init&#039;, array($this, &#039;register_routes&#039;));
+		// TODO - will move this to cron jobs . 
+		add_action(&#039;admin_init&#039;, array($this, &#039;run_log_cleanup_check&#039;));
+	}
+
+
+	/**
+	 * Checks if it&#039;s time to run the log cleanup task.
+	 *
+	 * This method is hooked to `admin_init` and uses a transient to ensure
+	 * the actual cleanup logic only runs once per day.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function run_log_cleanup_check()
+	{
+		// The transient acts as a &quot;lock&quot; to prevent this from running on every page load.
+		if (get_transient(CAMPAIGNBAY_TEXT_DOMAIN . &#039;_log_cleanup_check&#039;)) {
+			return;
+		}
+
+		// If the transient doesn&#039;t exist, it&#039;s time to run our cleanup.
+		// We immediately set the transient to &quot;lock&quot; it for the next 24 hours.
+		set_transient(CAMPAIGNBAY_TEXT_DOMAIN . &#039;_log_cleanup_check&#039;, true, DAY_IN_SECONDS);
+
+		// Call the actual cleanup logic.
+		$this-&gt;cleanup_old_log_files();
+	}
+
+	/**
+	 * Cleans up log files older than a specified number of days.
+	 * This method is now triggered by our transient-based check.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function cleanup_old_log_files()
+	{
+		if (!is_admin() &amp;&amp; !wp_doing_cron()) {
+			return;
+		}
+
+		wpab_campaignbay_log(&#039;Running daily log file cleanup task.&#039;, &#039;INFO&#039;);
+
+		$upload_dir = wp_upload_dir();
+		$log_dir = $upload_dir[&#039;basedir&#039;] . &#039;/&#039; . CAMPAIGNBAY_TEXT_DOMAIN . &#039;-logs/&#039;;
+
+		if (!is_dir($log_dir)) {
+			return; // Nothing to do if the directory doesn&#039;t exist.
+		}
+
+		global $wp_filesystem;
+		if (empty($wp_filesystem)) {
+			require_once ABSPATH . &#039;/wp-admin/includes/file.php&#039;;
+			WP_Filesystem();
+		}
+
+		if (is_wp_error($wp_filesystem) || !$wp_filesystem) {
+			wpab_campaignbay_log(&#039;Failed to initialize WP_Filesystem in cleanup_old_log_files.&#039;, &#039;ERROR&#039;);
+			return;
+		}
+
+		$files = $wp_filesystem-&gt;dirlist($log_dir);
+		$deleted_count = 0;
+
+		/**
+		 * Filters the number of days to retain log entries before they are automatically purged.
+		 *
+		 * This filter controls the duration for which campaign and activity logs are kept in the
+		 * custom database table. Developers can use this to increase or decrease the log retention
+		 * period to suit specific store needs (e.g., longer retention for auditing, or shorter
+		 * retention to conserve database space on high-volume stores).
+		 *
+		 * @since 1.0.0
+		 * @hook  campaignbay_log_retention_days
+		 *
+		 * @param int $days_to_keep The default number of days to keep logs (default: 7).
+		 * @return int The filtered number of days.
+		 */
+		$days_to_keep = apply_filters(CAMPAIGNBAY_TEXT_DOMAIN . &#039;_log_retention_days&#039;, 7);
+		// Calculate the cutoff timestamp. Any file older than this will be deleted.
+		$cutoff_timestamp = time() - ($days_to_keep * DAY_IN_SECONDS);
+
+		if (!empty($files)) {
+			foreach ($files as $file) {
+				// Security: Only process files that end with .log
+				if (&#039;.log&#039; !== substr($file[&#039;name&#039;], -4)) {
+					continue;
+				}
+
+				$file_path = $log_dir . $file[&#039;name&#039;];
+
+				// Check the file&#039;s last modified time.
+				if ($wp_filesystem-&gt;mtime($file_path) &lt; $cutoff_timestamp) {
+					if ($wp_filesystem-&gt;delete($file_path)) {
+						$deleted_count++;
+						wpab_campaignbay_log(sprintf(&#039;Deleted old log file: %s&#039;, $file[&#039;name&#039;]), &#039;DEBUG&#039;);
+					} else {
+						wpab_campaignbay_log(sprintf(&#039;Failed to delete old log file: %s&#039;, $file[&#039;name&#039;]), &#039;ERROR&#039;);
+					}
+				}
+			}
+		}
+
+		wpab_campaignbay_log(sprintf(&#039;Log cleanup complete. Deleted %d file(s).&#039;, $deleted_count), &#039;INFO&#039;);
+	}
+
+	/**
+	 * Register the routes for the objects of the controller.
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function register_routes()
+	{
+		$namespace = $this-&gt;namespace . $this-&gt;version;
+
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_todays_log&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::DELETABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;delete_log_files&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+				),
+			)
+		);
+
+		// Route to get a list of all available log files.
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/list&#039;,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_available_log_files&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+				),
+			)
+		);
+
+		// Route to get a specific log file by days ago
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/(?P&lt;date&gt;[\d]{4}-[\d]{2}-[\d]{2})&#039;,
+			array(
+				&#039;args&#039; =&gt; array(
+					&#039;date&#039; =&gt; array(
+						&#039;description&#039; =&gt; __(&#039;The date of the log file in YYYY-MM-DD format.&#039;, &#039;campaignbay&#039;),
+						&#039;type&#039; =&gt; &#039;string&#039;,
+						&#039;required&#039; =&gt; true,
+					),
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_log_by_date&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+				),
+			)
+		);
+	}
+
+	/**
+	 * Get the contents of a log file from a specific number of days ago.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error
+	 */
+	public function get_log_by_date($request)
+	{
+		$date = $request-&gt;get_param(&#039;date&#039;);
+
+		// Calculate the target date string based on the integer.
+		$target_date = $date;
+
+		$upload_dir = wp_upload_dir();
+		$log_dir = $upload_dir[&#039;basedir&#039;] . &#039;/&#039; . CAMPAIGNBAY_TEXT_DOMAIN . &#039;-logs/&#039;;
+		$log_file = $log_dir . &#039;plugin-log-&#039; . $target_date . &#039;.log&#039;;
+
+		return $this-&gt;read_and_respond_with_log_content($log_file, __(&#039;No logs found.&#039;, &#039;campaignbay&#039;));
+	}
+
+	/**
+	 * Get the contents of TODAY&#039;s log file.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error
+	 */
+	public function get_todays_log($request)
+	{
+		$upload_dir = wp_upload_dir();
+		$log_dir = $upload_dir[&#039;basedir&#039;] . &#039;/&#039; . CAMPAIGNBAY_TEXT_DOMAIN . &#039;-logs/&#039;;
+		// Use gmdate() to always get the UTC date for today.
+		$log_file = $log_dir . &#039;plugin-log-&#039; . gmdate(&#039;Y-m-d&#039;) . &#039;.log&#039;;
+
+		return $this-&gt;read_and_respond_with_log_content($log_file, __(&#039;No logs recorded for today.&#039;, &#039;campaignbay&#039;));
+	}
+
+	/**
+	 * Get a list of all available log file dates.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response
+	 */
+	public function get_available_log_files($request)
+	{
+		$upload_dir = wp_upload_dir();
+		$log_dir = $upload_dir[&#039;basedir&#039;] . &#039;/&#039; . CAMPAIGNBAY_TEXT_DOMAIN . &#039;-logs/&#039;;
+		$log_dates = array();
+
+		if (is_dir($log_dir)) {
+			$files = scandir($log_dir, SCANDIR_SORT_DESCENDING); // Sort newest first.
+			foreach ($files as $file) {
+				if (preg_match(&#039;/plugin-log-(\d{4}-\d{2}-\d{2})\.log/&#039;, $file, $matches)) {
+					$log_dates[] = $matches[1]; // Extract the YYYY-MM-DD part.
+				}
+			}
+		}
+
+		return new WP_REST_Response($log_dates, 200);
+	}
+
+	/**
+	 * A reusable helper function to read a log file and return a REST response.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param string $log_file_path The full path to the log file.
+	 * @param string $not_found_message The message to return if the file doesn&#039;t exist.
+	 * @return WP_REST_Response|WP_Error
+	 */
+	private function read_and_respond_with_log_content($log_file_path, $not_found_message)
+	{
+		if (file_exists($log_file_path)) {
+			global $wp_filesystem;
+			if (empty($wp_filesystem)) {
+				require_once ABSPATH . &#039;/wp-admin/includes/file.php&#039;;
+				WP_Filesystem();
+			}
+			$contents = $wp_filesystem-&gt;get_contents($log_file_path);
+
+			if (false === $contents) {
+				return new WP_Error(&#039;rest_log_read_error&#039;, __(&#039;Could not read the log file.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 500));
+			}
+
+			$lines = explode(&quot;\n&quot;, $contents);
+			$reversed_lines = array_reverse($lines);
+			$reversed_contents = implode(&quot;\n&quot;, $reversed_lines);
+
+			return new WP_REST_Response(array(&#039;log_content&#039; =&gt; $reversed_contents), 200);
+		} else {
+			return new WP_REST_Response(array(&#039;log_content&#039; =&gt; $not_found_message), 200);
+		}
+	}
+
+
+	/**
+	 * Delete the log files.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error
+	 */
+	public function delete_log_files($request)
+	{
+		$upload_dir = wp_upload_dir();
+		$log_dir = $upload_dir[&#039;basedir&#039;] . &#039;/&#039; . CAMPAIGNBAY_TEXT_DOMAIN . &#039;-logs/&#039;;
+
+		if (!is_dir($log_dir)) {
+			// If the directory doesn&#039;t exist, there&#039;s nothing to clear.
+			return new WP_REST_Response(array(&#039;message&#039; =&gt; __(&#039;Log directory does not exist. Nothing to clear.&#039;, &#039;campaignbay&#039;)), 200);
+		}
+
+		global $wp_filesystem;
+		if (empty($wp_filesystem)) {
+			require_once ABSPATH . &#039;/wp-admin/includes/file.php&#039;;
+			WP_Filesystem();
+		}
+
+
+		$files = $wp_filesystem-&gt;dirlist($log_dir);
+		$deleted_count = 0;
+
+		if (!empty($files)) {
+			foreach ($files as $file) {
+				// Security: Only delete files that end with .log
+				if (&#039;.log&#039; === substr($file[&#039;name&#039;], -4)) {
+					if ($wp_filesystem-&gt;delete($log_dir . $file[&#039;name&#039;])) {
+						$deleted_count++;
+					}
+				}
+			}
+		}
+
+		if ($deleted_count &gt; 0) {
+			return new WP_REST_Response(
+				array(
+					&#039;success&#039; =&gt; true,
+					/* translators: %d: number of log files deleted. */
+					&#039;message&#039; =&gt; sprintf(_n(&#039;%d log file cleared.&#039;, &#039;%d log files cleared.&#039;, $deleted_count, &#039;campaignbay&#039;), $deleted_count),
+				),
+				200
+			);
+		} else {
+			return new WP_REST_Response(
+				array(
+					&#039;success&#039; =&gt; true,
+					&#039;message&#039; =&gt; __(&#039;No log files to clear.&#039;, &#039;campaignbay&#039;),
+				),
+				200
+			);
+		}
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

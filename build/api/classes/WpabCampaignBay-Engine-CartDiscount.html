@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/wpabcampaignbay.html">WpabCampaignBay</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/wpabcampaignbay-engine.html">Engine</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    CartDiscount
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="../packages/WPAB.html">WPAB</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="../packages/WPAB-CampaignBay.html">CampaignBay</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.27">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+</aside>
+
+            <p class="phpdocumentor-summary">The Pricing Engine class.</p>
+
+    <section class="phpdocumentor-description"><p>This class is responsible for applying discount logic by hooking into WooCommerce
+pricing filters and actions. It is the &quot;engine&quot; that drives the customer-facing changes.</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>WP Anchor Bay <a href="mailto:wpanchorbay@gmail.com">wpanchorbay@gmail.com</a></p>
+</section>
+
+                </dd>
+                        </dl>
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-CartDiscount.html#method_add_data">add_data()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Prepares and adds discount data to the cart object to be applied as a virtual coupon.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-CartDiscount.html#method_add_fee">add_fee()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Prepares and adds discount data to the cart object to be applied as a negative fee.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-CartDiscount.html#method_apply_fake_coupons">apply_fake_coupons()</a>
+    <span>
+                        &nbsp;: bool|void    </span>
+</dt>
+<dd>Programmatically applies a coupon code to the cart.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-CartDiscount.html#method_calculate_cart_discount">calculate_cart_discount()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Public entry point to begin the cart discount calculation process.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-CartDiscount.html#method_calculate_discounts">calculate_discounts()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>The main worker method that calculates and applies all discounts to the cart.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-CartDiscount.html#method_cart_allow_campaign_stacking">cart_allow_campaign_stacking()</a>
+    <span>
+                        &nbsp;: bool    </span>
+</dt>
+<dd>checking cart_allow_campaign_stacking</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-CartDiscount.html#method_get_cart_discount">get_cart_discount()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Gathers all CampaignBay discount metadata for a single cart item.</dd>
+
+        </dl>
+
+
+
+        
+
+        
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_add_data">
+        add_data()
+        <a href="#method_add_data" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.419">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">419</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Prepares and adds discount data to the cart object to be applied as a virtual coupon.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">add_data</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cart</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"><p>This helper function organizes discount data into a structured format within the
+<code class="prettyprint">$cart-&gt;campaignbay['coupon']</code> array, grouping discounts by type and campaign.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cart</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The main WooCommerce cart object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$data</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The discount data to add.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_add_fee">
+        add_fee()
+        <a href="#method_add_fee" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.487">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">487</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Prepares and adds discount data to the cart object to be applied as a negative fee.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">add_fee</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"><p>This helper function aggregates discount amounts into the <code class="prettyprint">$cart-&gt;campaignbay['fee']</code> array.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cart</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The main WooCommerce cart object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$data</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The discount data to add.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_apply_fake_coupons">
+        apply_fake_coupons()
+        <a href="#method_apply_fake_coupons" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.459">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">459</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Programmatically applies a coupon code to the cart.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">apply_fake_coupons</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$coupon_code</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cart</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|void</span></code>
+
+        <section class="phpdocumentor-description"><p>This function adds a coupon code to the cart's list of applied coupons,
+triggering WooCommerce's discount calculation for that coupon.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$coupon_code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The coupon code to apply.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cart</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The main WooCommerce cart object.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool|void</span>
+            &mdash; <span class="phpdocumentor-return-value__description">False if the coupon cannot be applied.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_calculate_cart_discount">
+        calculate_cart_discount()
+        <a href="#method_calculate_cart_discount" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.51">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Public entry point to begin the cart discount calculation process.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">calculate_cart_discount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cart</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cart</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The main WooCommerce cart object.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash; <span class="phpdocumentor-return-value__description">An array of virtual coupon codes that were applied.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_calculate_discounts">
+        calculate_discounts()
+        <a href="#method_calculate_discounts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.67">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The main worker method that calculates and applies all discounts to the cart.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">calculate_discounts</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cart</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>Iterates through each item in the cart, determines the applicable simple, quantity,
+and BOGO discounts, and then applies them as either a direct price change,
+a virtual coupon, or a negative fee.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cart</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Cart">WC_Cart</abbr>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The main WooCommerce cart object.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash; <span class="phpdocumentor-return-value__description">An array of virtual coupon codes that were applied.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_cart_allow_campaign_stacking">
+        cart_allow_campaign_stacking()
+        <a href="#method_cart_allow_campaign_stacking" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.36">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+</aside>
+
+        <p class="phpdocumentor-summary">checking cart_allow_campaign_stacking</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">cart_allow_campaign_stacking</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_cart_discount">
+        get_cart_discount()
+        <a href="#method_get_cart_discount" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/CartDiscount.php"><a href="../files/app-app-engine-cartdiscount.html#source-view.298">app/app/Engine/CartDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">298</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Gathers all CampaignBay discount metadata for a single cart item.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">get_cart_discount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cart_item</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>This function is a dispatcher that checks for all applicable campaign types
+(simple, quantity, BOGO, etc.) for a given product and compiles the results
+into a single metadata array.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cart_item</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The cart item to be analyzed.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash; <span class="phpdocumentor-return-value__description">The compiled CampaignBay metadata for the item.</span>
+    
+</article>
+            </section>
+
+    </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

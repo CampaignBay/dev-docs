@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">PricingEngine.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+namespace WpabCampaignBay\Engine;
+
+use WC_Product;
+use WP_Error;
+use WpabCampaignBay\Core\Base;
+use WpabCampaignBay\Core\Common;
+use WpabCampaignBay\Helper\Helper;
+use WpabCampaignBay\Helper\Woocommerce;
+
+/**
+ * The file that defines the Pricing Engine class.
+ *
+ * A class definition that handles all pricing interactions with WooCommerce.
+ *
+ * @link       https://wpanchorbay.com
+ * @since      1.0.0
+ *
+ * @package    WPAB_CampaignBay
+ * @subpackage WPAB_CampaignBay/includes
+ */
+
+// Exit if accessed directly.
+if (!defined(&#039;ABSPATH&#039;)) {
+	exit;
+}
+
+/**
+ * The Pricing Engine class.
+ *
+ * This class is responsible for applying discount logic by hooking into WooCommerce
+ * pricing filters and actions. It is the &quot;engine&quot; that drives the customer-facing changes.
+ *
+ * @since      1.0.0
+ * @package    WPAB_CampaignBay
+ * @author     WP Anchor Bay &lt;wpanchorbay@gmail.com&gt;
+ */
+class PricingEngine extends Base
+{
+
+	private $settings = array();
+
+	public $coupons = array();
+
+
+	private $discount_applied = false;
+
+	private $calculated_totals = false;
+
+	/**
+	 * Constructor to define and build the hooks array.
+	 *
+	 * @since 1.0.0
+	 */
+	protected function __construct()
+	{
+
+		parent::__construct();
+		$this-&gt;settings = Common::get_instance()-&gt;get_settings();
+
+		if ($this-&gt;settings[&#039;global_enableAddon&#039;]) {
+			$this-&gt;define_hooks();
+		}
+	}
+
+	/**
+	 * Defines all hooks this class needs to run.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 */
+	private function define_hooks()
+	{
+		// woocommerce_product_variation_get_price
+		$bulk_table_position = $this-&gt;settings[&#039;position_to_show_bulk_table&#039;] ?? &#039;woocommerce_after_add_to_cart_form&#039;;
+		$banner_position = $this-&gt;settings[&#039;position_to_show_discount_bar&#039;] ?? &#039;woocommerce_before_add_to_cart_form&#039;;
+		$hooks = [
+			[&#039;filter&#039;, &#039;woocommerce_get_price_html&#039;, &#039;get_price_html&#039;, 20, 2],
+			[&#039;filter&#039;, &#039;woocommerce_variable_price_html&#039;, &#039;get_variable_price_html&#039;, 20, 2],
+			[&#039;filter&#039;, &#039;woocommerce_product_is_on_sale&#039;, &#039;is_on_sale&#039;, 20, 2],
+			[&#039;action&#039;, $banner_position, &#039;display_product_discount_message&#039;, 20, 0],
+			[&#039;action&#039;, $bulk_table_position, &#039;display_product_quantity_table&#039;, 20, 0],
+
+
+			[&#039;action&#039;, &#039;woocommerce_before_cart&#039;, &#039;ensure_cart_calculate_totals&#039;, 20, 1],
+			[&#039;action&#039;, &#039;woocommerce_before_mini_cart&#039;, &#039;ensure_cart_calculate_totals&#039;, 20, 1],
+			[&#039;action&#039;, &#039;woocommerce_before_mini_cart_contents&#039;, &#039;ensure_cart_calculate_totals&#039;, 20, 1],
+
+			[&#039;action&#039;, &#039;woocommerce_before_calculate_totals&#039;, &#039;before_calculate_totals&#039;, 20, 1],
+			[&#039;action&#039;, &#039;woocommerce_after_calculate_totals&#039;, &#039;after_calculate_totals&#039;, 20, 1],
+			[&#039;filter&#039;, &#039;woocommerce_get_shop_coupon_data&#039;, &#039;validate_fake_coupon_data&#039;, 10, 2],
+			[&#039;filter&#039;, &#039;woocommerce_cart_totals_coupon_label&#039;, &#039;change_virtual_coupon_label&#039;, 10, 2],
+			[&#039;filter&#039;, &#039;woocommerce_coupon_is_valid&#039;, &#039;validate_fake_coupon&#039;, 10, 3],
+			[&#039;filter&#039;, &#039;woocommerce_cart_item_price&#039;, &#039;cart_item_price&#039;, 10, 3],
+			[&#039;filter&#039;, &#039;woocommerce_cart_item_subtotal&#039;, &#039;cart_item_subtotal&#039;, 10, 3],
+			[&#039;filter&#039;, &#039;woocommerce_cart_item_name&#039;, &#039;cart_item_name&#039;, 10, 3],
+			[&#039;action&#039;, &#039;woocommerce_after_cart_item_quantity_update&#039;, &#039;after_cart_item_quantity_update&#039;, 10, 4],
+			[&#039;action&#039;, &#039;woocommerce_checkout_create_order&#039;, &#039;save_discount_breakdown_to_order_meta&#039;, 10, 2],
+			[&#039;action&#039;, &#039;woocommerce_store_api_checkout_update_order_meta&#039;, &#039;save_discount_breakdown_to_order_meta&#039;, 10, 1],
+		];
+
+		// add_action(&#039;woocommerce_after_calculate_totals&#039;, array($this, &#039;after_calculate_totals&#039;), 10, 1);
+		// add_action(&#039;woocommerce_before_calculate_totals&#039;, array($this, &#039;before_calculate_totals&#039;), 10, 1);
+		foreach ($hooks as $hook) {
+			$this-&gt;add_hook(...$hook);
+		}
+	}
+	// position for banners
+	// woocommerce_before_single_product
+	// woocommerce_before_add_to_cart_form
+	// woocommerce_after_add_to_cart_form
+	// woocommerce_product_meta_start
+	// woocommerce_product_meta_end
+
+
+
+	/**
+	 * Save the discount breakdown to the order meta.
+	 *
+	 * @since 1.0.0
+	 * @hook woocommerce_checkout_create_order
+	 * @hook woocommerce_store_api_checkout_update_order_meta
+	 * @param WC_Order $order The order object.
+	 * @param array $data The order data.
+	 */
+	public function save_discount_breakdown_to_order_meta($order, $data = null)
+	{
+		// The cart object is available globally via WC()-&gt;cart at this point.
+		$cart = WC()-&gt;cart;
+
+
+
+
+		if (!$cart)
+			return;
+
+
+		$discount_breakdown = $cart-&gt;campaignbay_discount_breakdown ?? array();
+
+
+		$applied_coupons = $cart-&gt;get_coupon_discount_totals();
+		$our_coupons = $this-&gt;coupons;
+		if (is_array($applied_coupons) &amp;&amp; !empty($applied_coupons) &amp;&amp; !empty($our_coupons)) {
+			foreach ($applied_coupons as $key =&gt; $value) {
+				if (!isset($our_coupons[$key]))
+					continue;
+				$coupon = $our_coupons[$key];
+				$campaign_id = $coupon[&#039;id&#039;];
+				if (!isset($discount_breakdown[$campaign_id]))
+					$discount_breakdown[$campaign_id] = array(
+						&#039;title&#039; =&gt; $coupon[&#039;title&#039;],
+						&#039;old_price&#039; =&gt; 0,
+						&#039;discount&#039; =&gt; 0
+					);
+				$discount_breakdown[$campaign_id][&#039;old_price&#039;] = $discount_breakdown[$campaign_id][&#039;old_price&#039;] + $coupon[&#039;old_price&#039;];
+				$discount_breakdown[$campaign_id][&#039;discount&#039;] = $discount_breakdown[$campaign_id][&#039;discount&#039;] + $value;
+			}
+		}
+
+		// Save the entire breakdown array to a single meta key on the order.
+		$order-&gt;update_meta_data(&#039;_campaignbay_discount_breakdown&#039;, $discount_breakdown);
+		wpab_campaignbay_log(sprintf(&#039;Saved discount breakdown to order #%d .&#039;, $order-&gt;get_id()), &#039;INFO&#039;);
+	}
+
+	public function get_price_html($price_html, $product)
+	{
+		if (Woocommerce::product_type_is($product, &#039;variable&#039;)) {
+			return $price_html;
+		}
+		$meta = Woocommerce::get_product($product-&gt;get_id())-&gt;get_meta(&#039;campaignbay&#039;);
+
+		if (!is_array($meta) || empty($meta) || !$meta[&#039;on_discount&#039;] || !isset($meta[&#039;simple&#039;]))
+			return Woocommerce::get_price_html(
+				$price_html,
+				$product,
+				Woocommerce::get_product_regular_price($product),
+				$product-&gt;get_price(),
+				false
+			);
+		$price_html = Woocommerce::get_price_html(
+			$price_html,
+			$product,
+			$meta[&#039;original_price&#039;],
+			$meta[&#039;simple&#039;][&#039;price&#039;],
+			$meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;]
+		);
+		return $price_html;
+	}
+
+	public function get_variable_price_html($price_html, $product)
+	{
+		if (!Woocommerce::product_type_is($product, &#039;variable&#039;)) {
+			return $price_html;
+		}
+		$meta = Woocommerce::get_product($product-&gt;get_id())-&gt;get_meta(&#039;campaignbay&#039;);
+		if (!is_array($meta) || empty($meta) || !$meta[&#039;on_discount&#039;] || !isset($meta[&#039;simple&#039;]))
+			return $price_html;
+
+		$prices = Woocommerce::get_variation_prices($product);
+		foreach ($meta[&#039;simple&#039;] as $key =&gt; $value) {
+			$prices[&#039;price&#039;][$key] = $value[&#039;price&#039;];
+			if ($value[&#039;display_as_regular_price&#039;] !== null &amp;&amp; $value[&#039;display_as_regular_price&#039;] === true)
+				$prices[&#039;regular_price&#039;][$key] = $value[&#039;price&#039;];
+		}
+		$min_price = current($prices[&#039;price&#039;]);
+		$max_price = end($prices[&#039;price&#039;]);
+		$min_reg_price = current($prices[&#039;regular_price&#039;]);
+		$max_reg_price = end($prices[&#039;regular_price&#039;]);
+
+		if ($min_price !== $max_price) {
+			$price_html = wc_format_price_range($min_price, $max_price);
+		} else
+			$price_html = Woocommerce::format_price($min_price);
+		if ($min_reg_price !== $max_reg_price) {
+			$reg_price = wc_format_price_range($min_reg_price, $max_reg_price);
+		} else
+			$reg_price = Woocommerce::format_price($min_reg_price);
+		if ($min_reg_price !== $min_price &amp;&amp; $max_reg_price !== $max_price) {
+			$price_html = wc_format_sale_price($reg_price, $price_html);
+		}
+		return $price_html;
+	}
+
+	public function cart_item_price($price_html, $cart_item, $cart_item_key)
+	{
+		// wpab_campaignbay_log(&#039;cart item price &#039; . $cart_item[&#039;data&#039;]-&gt;get_name());
+		$meta = isset($cart_item[&#039;campaignbay&#039;]) ? $cart_item[&#039;campaignbay&#039;] : null;
+		if ($meta === null || !isset($meta[&#039;on_discount&#039;]) || !$meta[&#039;on_discount&#039;])
+			return $price_html;
+
+		$base_price = $meta[&#039;base_price&#039;];
+		$price = $base_price;
+		$as_reg_price = false;
+		if (isset($meta[&#039;quantity&#039;])) {
+			$quantity = $meta[&#039;quantity&#039;];
+			//seting simple discount as base price
+			if (isset($meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;]) &amp;&amp; $meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;] === true)
+				$base_price = $quantity[&#039;base_price&#039;];
+			if ($quantity[&#039;settings&#039;][&#039;apply_as&#039;] === &#039;line_total&#039;) {
+				$price = $quantity[&#039;price&#039;];
+			}
+		} elseif (isset($meta[&#039;simple&#039;])) {
+			$price = $meta[&#039;simple&#039;][&#039;price&#039;];
+			$as_reg_price = $meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;];
+			$base_price = $meta[&#039;base_price&#039;];
+		} else
+			return $price_html;
+		$price_html = Woocommerce::get_price_html(
+			$price_html,
+			$cart_item[&#039;data&#039;],
+			$base_price,
+			$price,
+			$as_reg_price
+		);
+		return $price_html;
+	}
+	public function cart_item_subtotal($price_html, $cart_item, $cart_item_key)
+	{
+
+		$meta = isset($cart_item[&#039;campaignbay&#039;]) ? $cart_item[&#039;campaignbay&#039;] : null;
+		if ($meta === null || !isset($meta[&#039;on_discount&#039;]) || !$meta[&#039;on_discount&#039;])
+			return $price_html;
+
+		$base_price = $meta[&#039;base_price&#039;];
+		$price = $base_price;
+
+		$as_reg_price = false;
+
+		if (isset($meta[&#039;quantity&#039;])) {
+			$quantity = $meta[&#039;quantity&#039;];
+			//seting simple discount as base price
+			if (isset($meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;]) &amp;&amp; $meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;] === true)
+				$base_price = $quantity[&#039;base_price&#039;];
+			if ($quantity[&#039;settings&#039;][&#039;apply_as&#039;] === &#039;line_total&#039;) {
+				$price = $quantity[&#039;price&#039;];
+			}
+		} elseif (isset($meta[&#039;simple&#039;])) {
+			$price = $meta[&#039;simple&#039;][&#039;price&#039;];
+			$as_reg_price = $meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;];
+		}
+		if (isset($meta[&#039;bogo&#039;][&#039;free_quantity&#039;])) {
+
+			$quantity = $cart_item[&#039;quantity&#039;];
+			$sub_total = $price * $quantity;
+			$free_quantity = $meta[&#039;bogo&#039;][&#039;free_quantity&#039;];
+			$discount = Woocommerce::round(($sub_total / $quantity) * $free_quantity);
+			$sub_total -= $discount;
+
+			$price_html = Woocommerce::get_price_html(
+				$price_html,
+				$cart_item[&#039;data&#039;],
+				$base_price * $cart_item[&#039;quantity&#039;],
+				$sub_total,
+				$as_reg_price
+			);
+			return $price_html;
+		}
+
+		$price_html = Woocommerce::get_price_html(
+			$price_html,
+			$cart_item[&#039;data&#039;],
+			$base_price * $cart_item[&#039;quantity&#039;],
+			$price * $cart_item[&#039;quantity&#039;],
+			$as_reg_price
+		);
+		return $price_html;
+	}
+
+	public function cart_item_name($name, $cart_item, $cart_item_key)
+	{
+		$meta = $cart_item[&#039;campaignbay&#039;];
+		if (isset($meta[&#039;quantity_next_tier&#039;])) {
+			$message = Helper::get_quantity_message($meta[&#039;quantity_next_tier&#039;]);
+			if ($message !== &#039;&#039; || $message !== null)
+				$name .= &#039;&lt;br/&gt;&lt;span&gt;&#039; . $message . &#039;&lt;/span&gt;&#039;;
+		}
+		if (
+			isset($meta[&#039;is_bogo&#039;]) &amp;&amp;
+			$meta[&#039;is_bogo&#039;] === true &amp;&amp;
+			isset($meta[&#039;bogo&#039;])
+		) {
+			$message = Helper::get_bogo_cart_message($meta[&#039;bogo&#039;]);
+			$location = $meta[&#039;bogo&#039;][&#039;settings&#039;][&#039;bogo_cart_message_location&#039;];
+			if ($message !== &#039;&#039; || $message !== null) {
+				if ($location === &#039;line_item_name&#039;)
+					$name .= &#039;&lt;br/&gt;&lt;span&gt;&#039; . $message . &#039;&lt;/span&gt;&#039;;
+				// elseif ($location === &#039;notice&#039;)
+				// 	Woocommerce::wc_add_notice($message, &#039;success&#039;);
+			}
+		}
+		return $name;
+	}
+
+
+	public function is_on_sale($is_on_sale, $product)
+	{
+		if ($is_on_sale)
+			return $is_on_sale;
+
+		$meta = Woocommerce::get_product($product-&gt;get_id())-&gt;get_meta(&#039;campaignbay&#039;);
+		if (is_array($meta) &amp;&amp; !empty($meta) &amp;&amp; isset($meta[&#039;is_on_sale&#039;]) &amp;&amp; $meta[&#039;is_on_sale&#039;] === true)
+			return true;
+
+		$quantity_tiers = Helper::get_quantity_tiers_with_campaign($product);
+		if (!empty($quantity_tiers))
+			return true;
+		return $is_on_sale;
+	}
+
+
+	public function display_product_discount_message()
+	{
+		global $product;
+		if (!$product)
+			return;
+		Helper::render_product_bogo_message($product);
+		$meta = Woocommerce::get_product($product-&gt;get_id())-&gt;get_meta(&#039;campaignbay&#039;);
+		if (!is_array($meta) || empty($meta) || !$meta[&#039;on_discount&#039;] || !isset($meta[&#039;simple&#039;]))
+			return;
+
+		if (isset($meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;]) &amp;&amp; $meta[&#039;simple&#039;][&#039;display_as_regular_price&#039;] === true)
+			return;
+
+		$message = Woocommerce::generate_product_banner(
+			$meta[&#039;simple&#039;][&#039;value&#039;],
+			$meta[&#039;simple&#039;][&#039;type&#039;],
+			$format = $meta[&#039;simple&#039;][&#039;message_format&#039;]
+		);
+		if ($message == &#039;&#039;)
+			return;
+		Woocommerce::print_notice(
+			$message,
+			&#039;success&#039;
+		);
+	}
+
+
+
+	public function display_product_quantity_table()
+	{
+		if (!Common::get_instance()-&gt;get_settings(&#039;show_discount_table&#039;))
+			return;
+
+		global $product;
+		$meta = Woocommerce::get_product($product-&gt;get_id())-&gt;get_meta(&#039;campaignbay&#039;);
+		$price = $meta[&#039;base_price&#039;];
+		if ($this-&gt;settings[&#039;cart_allowCampaignStacking&#039;]) {
+			if (isset($meta[&#039;simple&#039;]) &amp;&amp; $meta[&#039;is_simple&#039;] === true &amp;&amp; isset($meta[&#039;simple&#039;][&#039;price&#039;]))
+				$price = $meta[&#039;simple&#039;][&#039;price&#039;];
+		}
+		$tiers = Helper::get_quantity_tiers_with_campaign($product);
+		$tiers = Helper::get_unique_quantity_tiers($tiers, $price);
+		if (empty($tiers))
+			return;
+
+		//  escaping just before echo
+		Helper::generate_quantity_table($tiers);
+
+		return;
+	}
+
+
+	public function after_cart_item_quantity_update($cart_item_key, $quantity, $old_quantity, $cart)
+	{
+		if (!did_action(&#039;woocommerce_before_calculate_totals&#039;)) {
+
+			// add to cart message for prduct page goes here
+			// wpab_campaignbay_log(&#039; after_cart_item_quantity_update&#039;);
+		}
+	}
+
+	public function before_calculate_totals($cart)
+	{
+		$this-&gt;coupons = CartDiscount::calculate_cart_discount($cart);
+		$this-&gt;calculated_totals = true;
+		$discount_breakdown = $cart-&gt;campaignbay_discount_breakdown ?? array();
+		if (is_array($discount_breakdown) &amp;&amp; !empty($discount_breakdown))
+			$this-&gt;discount_applied = true;
+	}
+
+	public function after_calculate_totals($cart)
+	{
+
+		if (isset($cart-&gt;cart_contents) &amp;&amp; !empty($cart-&gt;cart_contents)) {
+			foreach ($cart-&gt;cart_contents as $key =&gt; $cart_item) {
+				$quantity = $cart_item[&#039;quantity&#039;];
+
+				$meta = isset($cart_item[&#039;campaignbay&#039;]) ? $cart_item[&#039;campaignbay&#039;] : null;
+				if ($meta === null || !isset($meta[&#039;is_bogo&#039;]) || !isset($meta[&#039;bogo&#039;][&#039;free_quantity&#039;]))
+					continue;
+				if (isset($meta[&#039;bogo&#039;][&#039;free_quantity&#039;])) {
+
+					$free_quantity = $meta[&#039;bogo&#039;][&#039;free_quantity&#039;];
+					$cart-&gt;set_quantity($key, $quantity + $free_quantity, false);
+
+					$price = (float) $cart_item[&#039;line_total&#039;] / $quantity;
+
+					$campaign_id = $meta[&#039;bogo&#039;][&#039;id&#039;];
+					if (!isset($cart-&gt;campaignbay_discount_breakdown[$campaign_id]))
+						$cart-&gt;campaignbay_discount_breakdown[$campaign_id] = array(
+							&#039;title&#039; =&gt; $meta[&#039;bogo&#039;][&#039;title&#039;],
+							&#039;old_price&#039; =&gt; 0,
+							&#039;discount&#039; =&gt; 0
+						);
+					$cart-&gt;campaignbay_discount_breakdown[$campaign_id][&#039;old_price&#039;] = $cart-&gt;campaignbay_discount_breakdown[$campaign_id][&#039;old_price&#039;] + (($quantity + $free_quantity) * $price);
+					$cart-&gt;campaignbay_discount_breakdown[$campaign_id][&#039;discount&#039;] = $cart-&gt;campaignbay_discount_breakdown[$campaign_id][&#039;discount&#039;] + ($free_quantity * $price);
+				}
+
+			}
+		}
+		Helper::set_cart_session($cart);
+	}
+
+
+
+
+	public function validate_fake_coupon_data($data, $coupon_code)
+	{
+
+		if ($coupon_code !== false &amp;&amp; $coupon_code !== 0 &amp;&amp; isset($this-&gt;coupons[$coupon_code])) {
+
+			$data = array(
+				&#039;id&#039; =&gt; $coupon_code,
+				&#039;amount&#039; =&gt; $this-&gt;coupons[$coupon_code][&#039;discount&#039;],
+				&#039;individual_use&#039; =&gt; false,
+				&#039;product_ids&#039; =&gt; $this-&gt;coupons[$coupon_code][&#039;product_ids&#039;] ?? array(),
+				&#039;exclude_product_ids&#039; =&gt; array(),
+				&#039;usage_limit&#039; =&gt; &#039;&#039;,
+				&#039;usage_limit_per_user&#039; =&gt; &#039;&#039;,
+				&#039;limit_usage_to_x_items&#039; =&gt; &#039;&#039;,
+				&#039;usage_count&#039; =&gt; &#039;&#039;,
+				&#039;date_created&#039; =&gt; gmdate(&#039;Y-m-d&#039;),
+				&#039;expiry_date&#039; =&gt; &#039;&#039;,
+				&#039;apply_before_tax&#039; =&gt; &#039;yes&#039;,
+				&#039;free_shipping&#039; =&gt; false,
+				&#039;product_categories&#039; =&gt; array(),
+				&#039;exclude_product_categories&#039; =&gt; array(),
+				&#039;exclude_sale_items&#039; =&gt; false,
+				&#039;minimum_amount&#039; =&gt; &#039;&#039;,
+				&#039;maximum_amount&#039; =&gt; &#039;&#039;,
+				&#039;customer_email&#039; =&gt; &#039;&#039;,
+				&#039;discount_type&#039; =&gt; $this-&gt;coupons[$coupon_code][&#039;type&#039;]
+			);
+		} elseif ($this-&gt;calculated_totals === false &amp;&amp; is_string($coupon_code) &amp;&amp; strlen($coupon_code) &gt;= 11 &amp;&amp; substr($coupon_code, 0, 11) === &#039;campaignbay&#039;) {
+			// before calculating total
+			$data = array(
+				&#039;id&#039; =&gt; $coupon_code,
+				&#039;amount&#039; =&gt; 0,
+				&#039;individual_use&#039; =&gt; false,
+				&#039;product_ids&#039; =&gt; array(),
+				&#039;exclude_product_ids&#039; =&gt; array(),
+				&#039;usage_limit&#039; =&gt; &#039;&#039;,
+				&#039;usage_limit_per_user&#039; =&gt; &#039;&#039;,
+				&#039;limit_usage_to_x_items&#039; =&gt; &#039;&#039;,
+				&#039;usage_count&#039; =&gt; &#039;&#039;,
+				&#039;date_created&#039; =&gt; gmdate(&#039;Y-m-d&#039;),
+				&#039;expiry_date&#039; =&gt; &#039;&#039;,
+				&#039;apply_before_tax&#039; =&gt; &#039;yes&#039;,
+				&#039;free_shipping&#039; =&gt; false,
+				&#039;product_categories&#039; =&gt; array(),
+				&#039;exclude_product_categories&#039; =&gt; array(),
+				&#039;exclude_sale_items&#039; =&gt; false,
+				&#039;minimum_amount&#039; =&gt; &#039;&#039;,
+				&#039;maximum_amount&#039; =&gt; &#039;&#039;,
+				&#039;customer_email&#039; =&gt; &#039;&#039;,
+				&#039;discount_type&#039; =&gt; &#039;fixed_cart&#039;
+			);
+		}
+		return $data;
+	}
+	public function change_virtual_coupon_label($label, $coupon_code)
+	{
+		$code = $coupon_code-&gt;get_code();
+		if (isset($this-&gt;coupons[$code])) {
+			return $this-&gt;coupons[$code][&#039;title&#039;];
+		}
+		return $label;
+	}
+
+	public function validate_fake_coupon($value, $coupon, $discount)
+	{
+		if (isset($this-&gt;coupons[$coupon-&gt;get_code()])) {
+			return true;
+		}
+		if (!$this-&gt;settings[&#039;cart_allowWcCouponStacking&#039;] &amp;&amp; $this-&gt;discount_applied) {
+			return false;
+		}
+		return $value;
+	}
+
+	public function ensure_cart_calculate_totals()
+	{
+		if (!did_action(&#039;woocommerce_before_calculate_totals&#039;)) {
+			return;
+		}
+
+		if (function_exists(&#039;WC&#039;)) {
+			if (isset(WC()-&gt;cart) &amp;&amp; WC()-&gt;cart != null) {
+				if (is_object(WC()-&gt;cart) &amp;&amp; method_exists(WC()-&gt;cart, &#039;calculate_totals&#039;)) {
+					WC()-&gt;cart-&gt;calculate_totals();
+				}
+			}
+		}
+	}
+
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

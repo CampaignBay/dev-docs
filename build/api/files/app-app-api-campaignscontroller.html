@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">CampaignsController.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php // phpcs:ignore Class file names should be based on the class name with &quot;class-&quot; prepended.
+
+namespace WpabCampaignBay\Api;
+
+if (!defined(&#039;ABSPATH&#039;)) {
+	exit;
+}
+
+// Import WordPress REST API classes
+
+use WP_Error;
+use WP_REST_Request;
+use WP_REST_Response;
+use WP_REST_Server;
+use WpabCampaignBay\Core\Campaign;
+use WpabCampaignBay\Engine\CampaignManager;
+use WpabCampaignBay\Helper\Logger;
+
+/**
+ * The REST API Controller for Campaigns.
+ *
+ * @link       https://wpanchorbay.com
+ * @since      1.0.0
+ *
+ * @package    WPAB_CampaignBay
+ * @subpackage WPAB_CampaignBay/includes/api
+ */
+
+/**
+ * The Campaign API controller class.
+ *
+ * This class defines the REST API endpoints for managing campaigns.
+ * It uses the Campaign class to interact with the database.
+ *
+ * @since      1.0.0
+ * @package    WPAB_CampaignBay
+ * @author     WP Anchor Bay &lt;wpanchorbay@gmail.com&gt;
+ */
+class CampaignsController extends ApiController
+{
+	/**
+	 * The single instance of the class.
+	 *
+	 * @since 1.0.0
+	 * @var   CampaignsController
+	 * @access private
+	 */
+	private static $instance = null;
+	/**
+	 * Gets an instance of this object.
+	 * Prevents duplicate instances which avoid artefacts and improves performance.
+	 *
+	 * @static
+	 * @access public
+	 * @return object
+	 * @since 1.0.0
+	 */
+	public static function get_instance()
+	{
+		// Store the instance locally to avoid private static replication.
+		static $instance = null;
+		if (null === self::$instance) {
+			self::$instance = new self();
+		}
+		return self::$instance;
+	}
+
+	/**
+	 * Initialize the class.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function run()
+	{
+		$this-&gt;rest_base = &#039;campaigns&#039;;
+		add_action(&#039;rest_api_init&#039;, array($this, &#039;register_routes&#039;));
+	}
+
+	/**
+	 * Register the routes for the objects of the controller.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function register_routes()
+	{
+		$namespace = $this-&gt;namespace . $this-&gt;version;
+
+		// campaigns
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_items&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_collection_params(),
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::CREATABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;create_item&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_endpoint_args_for_item_schema(WP_REST_Server::CREATABLE),
+				),
+				&#039;schema&#039; =&gt; array($this, &#039;get_item_schema&#039;), // Corrected from get_public_item_schema
+			)
+		);
+
+		// campaigns/{id}
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/(?P&lt;id&gt;[\d]+)&#039;,
+			array(
+				&#039;args&#039; =&gt; array(
+					&#039;id&#039; =&gt; array(
+						&#039;description&#039; =&gt; __(&#039;Unique identifier for the campaign.&#039;, &#039;campaignbay&#039;),
+						&#039;type&#039; =&gt; &#039;integer&#039;,
+					),
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_item&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; array(
+						&#039;context&#039; =&gt; $this-&gt;get_context_param(array(&#039;default&#039; =&gt; &#039;view&#039;)),
+					),
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::EDITABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;update_item&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_endpoint_args_for_item_schema(WP_REST_Server::EDITABLE),
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::DELETABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;delete_item&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; array(
+						&#039;force&#039; =&gt; array(
+							&#039;type&#039; =&gt; &#039;boolean&#039;,
+							&#039;default&#039; =&gt; false,
+							&#039;description&#039; =&gt; __(&#039;Whether to bypass trash and force deletion.&#039;, &#039;campaignbay&#039;),
+						),
+					),
+				),
+				&#039;schema&#039; =&gt; array($this, &#039;get_item_schema&#039;),
+			)
+		);
+
+		// campaigns/duplicate
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/(?P&lt;id&gt;[\d]+)&#039; . &#039;/duplicate&#039;,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::CREATABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;duplicate_item&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; array(
+						&#039;id&#039; =&gt; array(
+							&#039;description&#039; =&gt; __(&#039;Unique identifier for the campaign to duplicate.&#039;, &#039;campaignbay&#039;),
+							&#039;type&#039; =&gt; &#039;integer&#039;,
+							&#039;required&#039; =&gt; true,
+						),
+					),
+				),
+			)
+		);
+
+		// campaigns/bulk
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/bulk&#039;,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::EDITABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;update_items&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_bulk_update_args(), // &lt;-- Use specific args
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::DELETABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;delete_items&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_bulk_delete_args(), // &lt;-- Use specific args
+				),
+			)
+		);
+
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/export&#039;,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;export_items&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; array(),
+				),
+			)
+		);
+
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/import&#039;,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::CREATABLE, // CREATABLE is used for POST
+					&#039;callback&#039; =&gt; array($this, &#039;import_items&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;update_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_bulk_import_args(),
+				),
+			)
+		);
+
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/dependents&#039;,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_dependents&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; array(),
+				),
+			)
+		);
+
+
+	}
+
+
+	/**
+	 * Retrieves dependent data like all products and product categories.
+	 *
+	 * This endpoint is designed to populate the &quot;Select Products&quot; and &quot;Select Categories&quot;
+	 * searchable dropdowns in the campaign editor. It returns a lightweight list of
+	 * items containing only their ID and name.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error
+	 */
+	public function get_dependents($request)
+	{
+		// --- 1. Fetch All Published Products ---
+		$product_posts = get_posts(
+			array(
+				&#039;post_type&#039; =&gt; &#039;product&#039;,
+				&#039;post_status&#039; =&gt; &#039;publish&#039;,
+				&#039;numberposts&#039; =&gt; -1,          // Get all products
+				&#039;orderby&#039; =&gt; &#039;title&#039;,
+				&#039;order&#039; =&gt; &#039;ASC&#039;,
+			)
+		);
+
+		$products = array();
+		foreach ($product_posts as $post) {
+			// We only need the ID and title for the selector component.
+			$products[] = array(
+				&#039;id&#039; =&gt; $post-&gt;ID,
+				&#039;name&#039; =&gt; $post-&gt;post_title,
+			);
+		}
+
+		// --- 2. Fetch All Product Categories ---
+		$category_terms = get_terms(
+			array(
+				&#039;taxonomy&#039; =&gt; &#039;product_cat&#039;,
+				&#039;hide_empty&#039; =&gt; false, // Include categories that don&#039;t have products yet
+				&#039;orderby&#039; =&gt; &#039;name&#039;,
+				&#039;order&#039; =&gt; &#039;ASC&#039;,
+			)
+		);
+
+		$categories = array();
+		// get_terms can return a WP_Error, so we must check for it.
+		if (!is_wp_error($category_terms)) {
+			foreach ($category_terms as $term) {
+				$categories[] = array(
+					&#039;id&#039; =&gt; $term-&gt;term_id,
+					&#039;name&#039; =&gt; $term-&gt;name,
+				);
+			}
+		}
+
+		// --- 3. Return the Combined Data in a REST Response ---
+		$response_data = array(
+			&#039;products&#039; =&gt; $products,
+			&#039;categories&#039; =&gt; $categories,
+		);
+
+		return new WP_REST_Response($response_data, 200);
+	}
+
+
+	/**
+	 * Get a collection of campaigns.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function get_items($request)
+	{
+		global $wpdb;
+		$table_name = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+		// Build the query and parameters together
+		$query_params = array();
+
+		$sql = &quot;SELECT * FROM {$table_name} WHERE 1=1 &quot;;
+		$count_sql = &quot;SELECT COUNT(*) FROM {$table_name} WHERE 1=1 &quot;;
+
+		// Handle Status Filtering
+		$status = $request-&gt;get_param(&#039;status&#039;);
+		if (!empty($status) &amp;&amp; &#039;all&#039; !== $status) {
+			// CORRECTED: Add a leading space for valid SQL.
+			$sql .= &quot; AND status = %s&quot;;
+			$count_sql .= &quot; AND status = %s&quot;;
+			$query_params[] = sanitize_key($status);
+		}
+
+		// Handle campaign type filtering
+		$type_filter = $request-&gt;get_param(&#039;type&#039;);
+		if (!empty($type_filter)) {
+			$sql .= &quot; AND type = %s&quot;;
+			$count_sql .= &quot; AND type = %s&quot;;
+			$query_params[] = sanitize_key($type_filter);
+		}
+
+		// Handle search
+		$search = $request-&gt;get_param(&#039;search&#039;);
+		if (!empty($search)) {
+			$sql .= &quot; AND title LIKE %s&quot;;
+			$count_sql .= &quot; AND title LIKE %s&quot;;
+			$query_params[] = &#039;%&#039; . $wpdb-&gt;esc_like(sanitize_text_field($search)) . &#039;%&#039;;
+		}
+
+		// --- Get total count for headers ---
+		//phpcs:ignore 
+		$total_items = $wpdb-&gt;get_var($wpdb-&gt;prepare($count_sql, $query_params));
+
+		// --- Continue building the main query ---
+
+		// Handle ordering (whitelisting is correct)
+		$orderby = $request-&gt;get_param(&#039;orderby&#039;) ?: &#039;date_modified&#039;;
+		$order = $request-&gt;get_param(&#039;order&#039;) ?: &#039;DESC&#039;;
+
+		$allowed_orderby = array(&#039;id&#039;, &#039;title&#039;, &#039;status&#039;, &#039;type&#039;, &#039;date_created&#039;, &#039;date_modified&#039;, &#039;priority&#039;);
+		if (!in_array($orderby, $allowed_orderby, true)) {
+			$orderby = &#039;date_modified&#039;;
+		}
+		$order = strtoupper($order) === &#039;ASC&#039; ? &#039;ASC&#039; : &#039;DESC&#039;;
+
+		// Handle pagination
+		$per_page = (int) ($request-&gt;get_param(&#039;per_page&#039;) ?: 10);
+		$page = (int) ($request-&gt;get_param(&#039;page&#039;) ?: 1);
+		$offset = ($page - 1) * $per_page;
+
+		// Append the final clauses to the main SQL query
+		$sql .= &quot; ORDER BY {$orderby} {$order} LIMIT %d OFFSET %d&quot;;
+
+		// Add the final parameters for pagination
+		$query_params[] = $per_page;
+		$query_params[] = $offset;
+
+		// Get the campaigns (using the final, complete parameter array)
+		//phpcs:ignore
+		$results = $wpdb-&gt;get_results($wpdb-&gt;prepare($sql, $query_params));
+
+
+		$response_data = array();
+		if ($results) {
+			foreach ($results as $row) {
+				// Decode JSON fields
+				$row-&gt;target_ids = !empty($row-&gt;target_ids) ? json_decode($row-&gt;target_ids, true) : array();
+				$row-&gt;tiers = !empty($row-&gt;tiers) ? json_decode($row-&gt;tiers, true) : array();
+
+				$campaign = new Campaign($row);
+				if ($campaign) {
+					$response_data[] = $this-&gt;prepare_item_for_response($campaign, $request);
+				}
+			}
+		}
+
+		$response = new WP_REST_Response($response_data, 200);
+		$response-&gt;header(&#039;X-WP-Total&#039;, $total_items);
+		$response-&gt;header(&#039;X-WP-TotalPages&#039;, ceil($total_items / $per_page));
+
+		return $response;
+	}
+
+	/**
+	 * Get a single campaign.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function get_item($request)
+	{
+		$id = (int) $request[&#039;id&#039;];
+		$campaign = new Campaign($id);
+
+		if (!$campaign) {
+			return new WP_Error(&#039;rest_campaign_not_found&#039;, __(&#039;Campaign not found.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 404));
+		}
+
+		$data = $this-&gt;prepare_item_for_response($campaign, $request);
+		return new WP_REST_Response($data, 200);
+	}
+
+	/**
+	 * Create a single campaign.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @access public
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function create_item($request)
+	{
+		$params = $request-&gt;get_json_params();
+		$campaign = Campaign::create($params);
+
+		if (is_wp_error($campaign)) {
+			return $campaign;
+		}
+
+		$data = $this-&gt;prepare_item_for_response($campaign, $request);
+		$response = new WP_REST_Response($data, 201);
+		$response-&gt;header(&#039;Location&#039;, rest_url(sprintf(&#039;%s/%s/%d&#039;, $this-&gt;namespace . $this-&gt;version, $this-&gt;rest_base, $campaign-&gt;get_id())));
+
+		return $response;
+	}
+
+	/**
+	 * Update a single campaign.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function update_item($request)
+	{
+		$id = (int) $request[&#039;id&#039;];
+		$campaign = new Campaign($id);
+
+		if (!$campaign) {
+			return new WP_Error(&#039;rest_campaign_not_found&#039;, __(&#039;Campaign not found.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 404));
+		}
+
+		$params = $request-&gt;get_json_params();
+		$result = $campaign-&gt;update($params);
+
+		if (is_wp_error($result)) {
+			return $result;
+		}
+
+		if (!$result) {
+			return new WP_Error(&#039;rest_cannot_update&#039;, __(&#039;Failed to update campaign.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 500));
+		}
+
+		// Get the fresh, updated campaign object to return.
+		$updated_campaign = new Campaign($id);
+		$data = $this-&gt;prepare_item_for_response($updated_campaign, $request);
+
+		return new WP_REST_Response($data, 200);
+	}
+
+	/**
+	 * Delete a single campaign.
+	 *
+	 * @since 1.0.0
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function delete_item($request)
+	{
+		$campaign_id = $request-&gt;get_param(&#039;id&#039;);
+		$force = $request-&gt;get_param(&#039;force&#039;);
+
+		$campaign = new Campaign($campaign_id);
+		if (!$campaign) {
+			return new WP_Error(&#039;rest_campaign_not_found&#039;, __(&#039;Campaign not found.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 404));
+		}
+
+		// $result = Campaign::delete( $campaign_id, $force );
+		$result = $campaign-&gt;delete($campaign_id, $force);
+		if (!$result) {
+			return new WP_Error(&#039;rest_cannot_delete&#039;, __(&#039;Failed to delete campaign.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 500));
+		}
+
+		return new WP_REST_Response(null, 204);
+	}
+
+	/**
+	 * Bulk update campaigns&#039; statuses.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function update_items($request)
+	{
+		$params = $request-&gt;get_json_params();
+		$ids = isset($params[&#039;ids&#039;]) ? array_map(&#039;absint&#039;, $params[&#039;ids&#039;]) : array();
+		$status = isset($params[&#039;status&#039;]) ? sanitize_key($params[&#039;status&#039;]) : &#039;&#039;;
+
+		if (empty($ids)) {
+			return new WP_Error(&#039;rest_invalid_ids&#039;, __(&#039;Campaign IDs are required.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 400));
+		}
+		if (empty($status)) {
+			return new WP_Error(&#039;rest_invalid_status&#039;, __(&#039;A valid status is required.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 400));
+		}
+
+		$updated_count = 0;
+		foreach ($ids as $id) {
+			$campaign = new Campaign($id);
+			if ($campaign) {
+				$title = $campaign-&gt;get_title();
+				$result = $campaign-&gt;update(array(&#039;status&#039; =&gt; $status), true);
+
+				if ($result === true &amp;&amp; !is_wp_error($result)) {
+					wpab_campaignbay_log(&#039;title : &#039; . $campaign-&gt;get_title() . &#039; &#039; . $status, &#039;error&#039;);
+					$updated_count++;
+					// Log the activity.
+					Logger::get_instance()-&gt;log(
+						&#039;activity&#039;,
+						&#039;updated&#039;,
+						array(
+							&#039;campaign_id&#039; =&gt; $id,
+							&#039;extra_data&#039; =&gt; [
+								&#039;title&#039; =&gt; $title,
+							]
+						)
+					);
+				}
+				if (is_wp_error($result)) {
+					//phpcs:ignore
+					wpab_campaignbay_log(print_r($result, true), &#039;error&#039;);
+				}
+			}
+		}
+
+		// Clear the cache after all updates are done.
+		CampaignManager::get_instance()-&gt;clear_cache();
+
+		return new WP_REST_Response(
+			array(
+				&#039;success&#039; =&gt; true,
+				&#039;updated&#039; =&gt; $updated_count,
+			),
+			200
+		);
+	}
+
+	/**
+	 * Bulk delete campaigns.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function delete_items($request)
+	{
+		$params = $request-&gt;get_json_params();
+		$ids = isset($params[&#039;ids&#039;]) ? array_map(&#039;absint&#039;, $params[&#039;ids&#039;]) : array();
+
+		if (empty($ids)) {
+			return new WP_Error(&#039;rest_invalid_ids&#039;, __(&#039;Campaign IDs are required.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 400));
+		}
+
+		$deleted_count = 0;
+		foreach ($ids as $id) {
+			// Using the Campaign::delete method ensures our custom hooks are fired.
+			if (Campaign::delete($id, true)) {
+				$deleted_count++;
+			}
+		}
+
+		// Cache is cleared by the delete hooks, so no need to do it here.
+
+		return new WP_REST_Response(
+			array(
+				&#039;success&#039; =&gt; true,
+				&#039;deleted&#039; =&gt; $deleted_count,
+			),
+			200
+		);
+	}
+
+	public function duplicate_item($request)
+	{
+		try {
+			$id = (int) $request[&#039;id&#039;];
+			$campaign = new Campaign($id);
+
+			if (!$campaign) {
+				return new WP_Error(&#039;rest_campaign_not_found&#039;, __(&#039;Campaign not found.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 404));
+			}
+
+			$new_campaign = $campaign-&gt;create(array(
+				&#039;title&#039; =&gt; $campaign-&gt;get_title() . &#039; (Copy)&#039;,
+				&#039;type&#039; =&gt; $campaign-&gt;get_type(),
+				&#039;status&#039; =&gt; $campaign-&gt;get_status(),
+
+				&#039;discount_type&#039; =&gt; $campaign-&gt;get_discount_type(),
+				&#039;discount_value&#039; =&gt; $campaign-&gt;get_discount_value(),
+				&#039;tiers&#039; =&gt; $campaign-&gt;get_tiers(),
+
+				&#039;target_type&#039; =&gt; $campaign-&gt;get_target_type(),
+				&#039;target_ids&#039; =&gt; $campaign-&gt;get_target_ids(),
+				&#039;is_exclude&#039; =&gt; $campaign-&gt;get_is_exclude(),
+				&#039;exclude_sale_items&#039; =&gt; $campaign-&gt;get_exclude_sale_items(),
+
+				&#039;schedule_enabled&#039; =&gt; $campaign-&gt;get_schedule_enabled(),
+				&#039;start_datetime&#039; =&gt; $campaign-&gt;get_start_datetime(),
+				&#039;end_datetime&#039; =&gt; $campaign-&gt;get_end_datetime(),
+
+				&#039;conditions&#039; =&gt; $campaign-&gt;get_conditions(),
+				&#039;settings&#039; =&gt; $campaign-&gt;get_settings(),
+				&#039;usage_limit&#039; =&gt; $campaign-&gt;get_usage_limit(),
+			));
+			if (is_wp_error($new_campaign)) {
+				return $new_campaign;
+			}
+
+			$data = $this-&gt;prepare_item_for_response($new_campaign, $request);
+			$response = new WP_REST_Response($data, 201);
+			$response-&gt;header(&#039;Location&#039;, rest_url(sprintf(&#039;%s/%s/%d&#039;, $this-&gt;namespace . $this-&gt;version, $this-&gt;rest_base, $new_campaign-&gt;get_id())));
+
+			return $response;
+		} catch (\Exception $e) {
+			return new WP_Error(&#039;rest_duplicate_failed&#039;, __(&#039;Failed to duplicate campaign.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 500));
+		}
+	}
+
+	/**
+	 * Export all campaigns as a JSON file.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function export_items($request)
+	{
+		global $wpdb;
+		$table_name = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+
+		$sql = &quot;SELECT `title`, `status`, `type`, `discount_type`, `discount_value`, `tiers`, `conditions`, `settings`, `target_type`, `target_ids`, `is_exclude`, `exclude_sale_items`, `schedule_enabled`, `start_datetime`, `end_datetime`, `usage_count`, `usage_limit`, `date_created`, `date_modified` FROM {$table_name} ORDER BY date_modified DESC&quot;;
+		//phpcs:ignore
+		$results = $wpdb-&gt;get_results($sql);
+		return new WP_REST_Response($results, 200);
+	}
+
+	/**
+	 * Bulk import campaigns from a JSON array.
+	 *
+	 * @since 1.0.0
+	 * @param \WP_REST_Request $request Full details about the request.
+	 * @return \WP_REST_Response|\WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function import_items($request)
+	{
+		$params = $request-&gt;get_json_params();
+		$campaigns = isset($params[&#039;campaigns&#039;]) ? $params[&#039;campaigns&#039;] : array();
+
+		if (empty($campaigns) || !is_array($campaigns)) {
+			return new WP_Error(&#039;rest_invalid_data&#039;, __(&#039;Campaign data is missing or not an array.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 400));
+		}
+
+		$campaigns = json_decode(wp_json_encode($campaigns), true);
+		$created_count = 0;
+		$failed_count = 0;
+		$errors = array();
+
+		foreach ($campaigns as $index =&gt; $campaign_data) {
+			$args = array(
+				&#039;title&#039; =&gt; isset($campaign_data[&#039;title&#039;]) ? sanitize_text_field($campaign_data[&#039;title&#039;]) : &#039;Imported Campaign&#039;,
+				&#039;status&#039; =&gt; isset($campaign_data[&#039;status&#039;]) ? sanitize_key($campaign_data[&#039;status&#039;]) : &#039;draft&#039;,
+				&#039;type&#039; =&gt; isset($campaign_data[&#039;type&#039;]) ? sanitize_key($campaign_data[&#039;type&#039;]) : &#039;scheduled&#039;, // Corrected from &#039;type&#039; to &#039;campaign_type&#039;
+
+				&#039;discount_type&#039; =&gt; isset($campaign_data[&#039;discount_type&#039;]) ? sanitize_key($campaign_data[&#039;discount_type&#039;]) : null,
+				&#039;discount_value&#039; =&gt; isset($campaign_data[&#039;discount_value&#039;]) ? floatval($campaign_data[&#039;discount_value&#039;]) : 0,
+
+				&#039;target_type&#039; =&gt; isset($campaign_data[&#039;target_type&#039;]) ? sanitize_key($campaign_data[&#039;target_type&#039;]) : &#039;entire_store&#039;,
+				&#039;target_ids&#039; =&gt; isset($campaign_data[&#039;target_ids&#039;]) &amp;&amp; !empty($campaign_data[&#039;target_ids&#039;]) ? json_decode($campaign_data[&#039;target_ids&#039;], true) : array(),
+				&#039;is_exclude&#039; =&gt; isset($campaign_data[&#039;is_exclude&#039;]) ? (bool) $campaign_data[&#039;is_exclude&#039;] : false,
+				&#039;exclude_sale_items&#039; =&gt; isset($campaign_data[&#039;exclude_sale_items&#039;]) ? $campaign_data[&#039;exclude_sale_items&#039;] : false,
+
+				&#039;schedule_enabled&#039; =&gt; isset($campaign_data[&#039;schedule_enabled&#039;]) ? (bool) $campaign_data[&#039;schedule_enabled&#039;] : false,
+				&#039;start_datetime&#039; =&gt; isset($campaign_data[&#039;start_datetime&#039;]) &amp;&amp; !empty($campaign_data[&#039;start_datetime&#039;]) ? sanitize_text_field($campaign_data[&#039;start_datetime&#039;]) : null,
+				&#039;end_datetime&#039; =&gt; isset($campaign_data[&#039;end_datetime&#039;]) &amp;&amp; !empty($campaign_data[&#039;end_datetime&#039;]) ? sanitize_text_field($campaign_data[&#039;end_datetime&#039;]) : null,
+
+				&#039;tiers&#039; =&gt; isset($campaign_data[&#039;tiers&#039;]) &amp;&amp; !empty($campaign_data[&#039;tiers&#039;]) ? $campaign_data[&#039;tiers&#039;] : array(),
+				&#039;conditions&#039; =&gt; isset($campaign_data[&#039;conditions&#039;]) &amp;&amp; !empty($campaign_data[&#039;conditions&#039;]) ? $campaign_data[&#039;conditions&#039;] : null,
+				&#039;settings&#039; =&gt; isset($campaign_data[&#039;settings&#039;]) &amp;&amp; !empty($campaign_data[&#039;settings&#039;]) ? $campaign_data[&#039;settings&#039;] : null,
+
+				&#039;usage_limit&#039; =&gt; isset($campaign_data[&#039;usage_limit&#039;]) &amp;&amp; is_numeric($campaign_data[&#039;usage_limit&#039;]) ? absint($campaign_data[&#039;usage_limit&#039;]) : null,
+				&#039;usage_count&#039; =&gt; isset($campaign_data[&#039;usage_count&#039;]) ? absint($campaign_data[&#039;usage_count&#039;]) : 0, // Allow importing a previous usage count
+			);
+			$result = Campaign::create($args);
+
+			if (is_wp_error($result)) {
+				$failed_count++;
+				$errors[] = array(&quot;Row &quot; . ($index + 1) . &quot; (&#039;&quot; . esc_html($args[&#039;title&#039;]) . &quot;&#039;): &quot; =&gt; $result);
+			} else {
+				$created_count++;
+			}
+		}
+
+		// Clear the campaign cache once after all imports are done.
+		CampaignManager::get_instance()-&gt;clear_cache();
+
+		if ($failed_count &gt; 0) {
+			return new WP_Error(
+				&#039;rest_import_partial_failure&#039;,
+				__(&#039;Some campaigns could not be imported.&#039;, &#039;campaignbay&#039;),
+				array(
+					&#039;status&#039; =&gt; 400,
+					&#039;details&#039; =&gt; array(
+						&#039;created_count&#039; =&gt; $created_count,
+						&#039;failed_count&#039; =&gt; $failed_count,
+						&#039;errors&#039; =&gt; $errors,
+					),
+				)
+			);
+		}
+
+		return new \WP_REST_Response(
+			array(
+				&#039;success&#039; =&gt; true,
+				&#039;created_count&#039; =&gt; $created_count,
+			),
+			201
+		);
+	}
+
+	/**
+	 * Defines the arguments for the bulk import endpoint.
+	 *
+	 * @since 1.0.0
+	 * @return array
+	 */
+	private function get_bulk_import_args()
+	{
+		return array(
+			&#039;campaigns&#039; =&gt; array(
+				&#039;description&#039; =&gt; __(&#039;An array of campaign objects to import.&#039;, &#039;campaignbay&#039;),
+				&#039;type&#039; =&gt; &#039;array&#039;,
+				&#039;required&#039; =&gt; true,
+				&#039;items&#039; =&gt; array(
+					&#039;type&#039; =&gt; &#039;object&#039;,
+				),
+			),
+		);
+	}
+
+
+
+	/**
+	 * Prepare a single campaign output for response.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param Campaign $campaign Campaign object.
+	 * @param WP_REST_Request $request Request object.
+	 * @return WP_REST_Response Response object.
+	 */
+	public function prepare_item_for_response($campaign, $request)
+	{
+		$data = $campaign-&gt;get_data();
+		$data-&gt;start_datetime_unix = $campaign-&gt;get_start_timestamp();
+		$data-&gt;end_datetime_unix = $campaign-&gt;get_end_timestamp();
+		$data-&gt;date_modified_unix = $campaign-&gt;get_time_stamp($data-&gt;date_modified);
+		$data-&gt;date_created_unix = $campaign-&gt;get_time_stamp($data-&gt;date_created);
+		return $data;
+	}
+
+	/**
+	 * Get the query params for collections.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return array
+	 */
+	public function get_collection_params()
+	{
+		$params = parent::get_collection_params();
+
+		$params[&#039;per_page&#039;][&#039;default&#039;] = 10;
+		$params[&#039;per_page&#039;][&#039;maximum&#039;] = 100;
+
+		return $params;
+	}
+
+	/**
+	 * Get the campaign schema, conforming to JSON Schema.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return array
+	 */
+	public function get_item_schema()
+	{
+		if (isset($this-&gt;schema)) {
+			/**
+			 * Filters the REST API schema for a single campaign item.
+			 *
+			 * This filter allows other developers to extend the campaign&#039;s REST API endpoint
+			 * by adding, modifying, or removing properties from its JSON schema. This is useful
+			 * for add-ons that need to save their own custom data alongside a campaign.
+			 *
+			 * The `add_additional_fields_schema` function is called after this filter, ensuring that
+			 * any fields registered via `register_rest_field` are also included.
+			 *
+			 * @since 1.0.0
+			 * @hook  campaignbay_campaign_schema
+			 *
+			 * @param array $schema The campaign item schema array.
+			 * @return array The filtered campaign item schema array.
+			 */
+			return $this-&gt;add_additional_fields_schema(apply_filters(&#039;campaignbay_campaign_schema&#039;, $this-&gt;schema));
+		}
+
+		$schema = array(
+			&#039;$schema&#039; =&gt; &#039;http://json-schema.org/draft-04/schema#&#039;,
+			&#039;title&#039; =&gt; &#039;campaign&#039;,
+			&#039;type&#039; =&gt; &#039;object&#039;,
+			&#039;properties&#039; =&gt; array(
+				&#039;id&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;Unique identifier for the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;integer&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;readonly&#039; =&gt; true,
+				),
+				&#039;title&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The title for the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;required&#039; =&gt; true,
+				),
+				&#039;status&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;A named status for the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;enum&#039; =&gt; array(&#039;active&#039;, &#039;inactive&#039;, &#039;scheduled&#039;, &#039;expired&#039;),
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;type&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The core type of the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;enum&#039; =&gt; array(
+						&#039;scheduled&#039;,
+						&#039;quantity&#039;,
+						&#039;earlybird&#039;,
+						&#039;bogo&#039;,
+					),
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;required&#039; =&gt; true,
+				),
+				&#039;discount_type&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The type of discount (percentage, fixed, fixed_per_item).&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;enum&#039; =&gt; array(&#039;percentage&#039;, &#039;fixed&#039;, &#039;fixed_per_item&#039;),
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;discount_value&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The numeric value of the discount.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;number&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;tiers&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The tiers of the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;array&#039;,
+					&#039;items&#039; =&gt; array(&#039;type&#039; =&gt; &#039;object&#039;),
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;target_type&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The scope of the rule (store, categories, products, tags).&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;enum&#039; =&gt; array(&#039;entire_store&#039;, &#039;category&#039;, &#039;product&#039;, &#039;tag&#039;),
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;target_ids&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;Array of category, product, or tag IDs.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;array&#039;,
+					&#039;items&#039; =&gt; array(&#039;type&#039; =&gt; &#039;integer&#039;),
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;is_exclude&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;Whether to exclude the specified targets.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;boolean&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;exclude_sale_items&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;Prevent double-discounting.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;boolean&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;schedule_enabled&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;Whether scheduling is enabled for the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;boolean&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;start_datetime&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The rule\&#039;s start date/time (ISO 8601 string).&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;end_datetime&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The rule\&#039;s end date/time (ISO 8601 string).&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;usage_count&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The number of times the campaign has been used.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;integer&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;readonly&#039; =&gt; true,
+				),
+				&#039;usage_limit&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The maximum number of times the campaign can be used.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; array(&#039;integer&#039;, &#039;null&#039;),
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+				),
+				&#039;date_created&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The date the campaign was created.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;format&#039; =&gt; &#039;date-time&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;readonly&#039; =&gt; true,
+				),
+				&#039;date_modified&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;The date the campaign was last modified.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;string&#039;,
+					&#039;format&#039; =&gt; &#039;date-time&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;readonly&#039; =&gt; true,
+				),
+				&#039;created_by&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;User ID who created the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;integer&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;readonly&#039; =&gt; true,
+				),
+				&#039;updated_by&#039; =&gt; array(
+					&#039;description&#039; =&gt; __(&#039;User ID who last updated the campaign.&#039;, &#039;campaignbay&#039;),
+					&#039;type&#039; =&gt; &#039;integer&#039;,
+					&#039;context&#039; =&gt; array(&#039;view&#039;, &#039;edit&#039;),
+					&#039;readonly&#039; =&gt; true,
+				),
+			),
+		);
+
+		$this-&gt;schema = $schema;
+
+		/**
+		 * Filters the REST API schema for a single campaign item.
+		 *
+		 * This filter allows other developers to extend the campaign&#039;s REST API endpoint
+		 * by adding, modifying, or removing properties from its JSON schema. This is useful
+		 * for add-ons that need to save their own custom data alongside a campaign.
+		 *
+		 * The `add_additional_fields_schema` function is called after this filter, ensuring that
+		 * any fields registered via `register_rest_field` are also included.
+		 *
+		 * @since 1.0.0
+		 * @hook  campaignbay_campaign_schema
+		 *
+		 * @param array $schema The campaign item schema array.
+		 * @return array The filtered campaign item schema array.
+		 */
+		return $this-&gt;add_additional_fields_schema(apply_filters(&#039;campaignbay_campaign_schema&#039;, $this-&gt;schema));
+	}
+
+	/**
+	 * Defines the arguments for the bulk update endpoint.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return array
+	 */
+	private function get_bulk_update_args()
+	{
+		return array(
+			&#039;ids&#039; =&gt; array(
+				&#039;description&#039; =&gt; __(&#039;An array of campaign IDs to update.&#039;, &#039;campaignbay&#039;),
+				&#039;type&#039; =&gt; &#039;array&#039;,
+				&#039;items&#039; =&gt; array(&#039;type&#039; =&gt; &#039;integer&#039;),
+				&#039;required&#039; =&gt; true,
+			),
+			&#039;status&#039; =&gt; array(
+				&#039;description&#039; =&gt; __(&#039;The new status to apply to the campaigns.&#039;, &#039;campaignbay&#039;),
+				&#039;type&#039; =&gt; &#039;string&#039;,
+				&#039;enum&#039; =&gt; array(&#039;active&#039;, &#039;inactive&#039;, &#039;scheduled&#039;),
+				&#039;required&#039; =&gt; true,
+			),
+		);
+	}
+
+	/**
+	 * Defines the arguments for the bulk delete endpoint.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @return array
+	 */
+	private function get_bulk_delete_args()
+	{
+		return array(
+			&#039;ids&#039; =&gt; array(
+				&#039;description&#039; =&gt; __(&#039;An array of campaign IDs to delete.&#039;, &#039;campaignbay&#039;),
+				&#039;type&#039; =&gt; &#039;array&#039;,
+				&#039;items&#039; =&gt; array(&#039;type&#039; =&gt; &#039;integer&#039;),
+				&#039;required&#039; =&gt; true,
+			),
+		);
+	}
+
+	/**
+	 * Parses a malformed, non-standard JSON-like string into a PHP array.
+	 *
+	 * This function is designed as a fallback to repair a specific type of malformed
+	 * string where keys and some string values are not properly quoted.
+	 * For example: &#039;[{ id: 0, type: percentage }]&#039;
+	 *
+	 * WARNING: The most reliable solution is always to fix the source (JavaScript)
+	 * to generate valid JSON using `JSON.stringify()`. This function should only be
+	 * used if you cannot control the input source.
+	 *
+	 * @param string $malformed_string The malformed, JSON-like string.
+	 * @return array|null Returns the decoded PHP array on success, or null on failure.
+	 */
+	public function parse_malformed_json_string($malformed_string)
+	{
+		// Step 0: Basic validation. If the input is not a string or is empty, fail early.
+		if (!is_string($malformed_string) || empty(trim($malformed_string))) {
+			return null;
+		}
+
+		// Step 1: Wrap all unquoted keys (e.g., &quot;id:&quot;, &quot;max:&quot;) in double quotes.
+		// This regex finds a word character (alphanumeric + underscore) followed by a colon
+		// and wraps the word in double quotes.
+		$json_fixed_keys = preg_replace(&#039;/([a-zA-Z0-9_]+)\s*:/&#039;, &#039;&quot;$1&quot;:&#039;, $malformed_string);
+		if (null === $json_fixed_keys) {
+			// preg_replace can return null on error.
+			return null;
+		}
+
+		// Step 2: Wrap unquoted string values (e.g., &quot;: percentage,&quot;) in double quotes.
+		// This regex finds a colon, optional space, and then a sequence of letters,
+		// and wraps the letters in double quotes. It avoids quoting numbers.
+		$json_fixed_values = preg_replace(&#039;/: \s*([a-zA-Z_]+)/&#039;, &#039;: &quot;$1&quot;&#039;, $json_fixed_keys);
+		if (null === $json_fixed_values) {
+			return null;
+		}
+
+		// Step 3: Now that the string should be valid JSON, decode it.
+		$decoded_array = json_decode($json_fixed_values, true);
+
+		// Step 4: Final check. If json_decode failed, it returns null.
+		// We also check json_last_error to be certain.
+		if (json_last_error() !== JSON_ERROR_NONE) {
+			return null;
+		}
+
+		return $decoded_array;
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

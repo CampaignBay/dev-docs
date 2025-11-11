@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">functions.php</h2>
+
+                
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpab_campaignbay_default_options">
+        wpab_campaignbay_default_options()
+        <a href="#function_wpab_campaignbay_default_options" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/functions.php"><a href="../files/app-app-functions.html#source-view.26">app/app/functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the Plugin Default Options.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpab_campaignbay_default_options</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>dipta-sdd <a href="mailto:sankarsandipta@gmail.com">sankarsandipta@gmail.com</a></p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpab_campaignbay_get_options">
+        wpab_campaignbay_get_options()
+        <a href="#function_wpab_campaignbay_get_options" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/functions.php"><a href="../files/app-app-functions.html#source-view.117">app/app/functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">117</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the Plugin Saved Options.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpab_campaignbay_get_options</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>optional option key.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>dipta-sdd <a href="mailto:sankarsandipta@gmail.com">sankarsandipta@gmail.com</a></p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpab_campaignbay_update_options">
+        wpab_campaignbay_update_options()
+        <a href="#function_wpab_campaignbay_update_options" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/functions.php"><a href="../files/app-app-functions.html#source-view.150">app/app/functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">150</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Update the Plugin Options.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpab_campaignbay_update_options</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key_or_data</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$val</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$key_or_data</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>array of options or single option key.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$val</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>value of option key.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>dipta-sdd <a href="mailto:sankarsandipta@gmail.com">sankarsandipta@gmail.com</a></p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpab_campaignbay_get_white_label">
+        wpab_campaignbay_get_white_label()
+        <a href="#function_wpab_campaignbay_get_white_label" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/functions.php"><a href="../files/app-app-functions.html#source-view.173">app/app/functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">173</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get white label options for this plugin.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpab_campaignbay_get_white_label</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>optional option key.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>dipta-sdd <a href="mailto:sankarsandipta@gmail.com">sankarsandipta@gmail.com</a></p>
+</section>
+
+                </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpab_campaignbay_log">
+        wpab_campaignbay_log()
+        <a href="#function_wpab_campaignbay_log" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/functions.php"><a href="../files/app-app-functions.html#source-view.251">app/app/functions.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">251</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Log messages to the debug log.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpab_campaignbay_log</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$level</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;INFO&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dev_mode</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$message</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The message to log.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$level</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;INFO&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The log level (e.g.,'DEBUG', 'INFO', 'ERROR', 'NOTICE', 'WARNING', 'CRITICAL', 'ALERT', 'EMERGENCY' ).</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dev_mode</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Whether to log messages in development mode.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Reusable functions.
+ *
+ * @package    WPAB_CampaignBay
+ * @since 1.0.0
+ * @author     dipta-sdd &lt;sankarsandipta@gmail.com&gt;
+ */
+
+// Exit if accessed directly.
+if (!defined(&#039;ABSPATH&#039;)) {
+	exit;
+}
+
+
+if (!function_exists(&#039;wpab_campaignbay_default_options&#039;)):
+	/**
+	 * Get the Plugin Default Options.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return array Default Options
+	 *
+	 * @author     dipta-sdd &lt;sankarsandipta@gmail.com&gt;
+	 */
+	function wpab_campaignbay_default_options()
+	{
+		$default_options = array(
+			/*==================================================
+			* Global Settings Tab
+			==================================================*/
+			&#039;global_enableAddon&#039; =&gt; true,
+			&#039;global_calculate_discount_from&#039; =&gt; &#039;regular_price&#039;,
+			&#039;position_to_show_bulk_table&#039; =&gt; &#039;woocommerce_after_add_to_cart_form&#039;,
+			&#039;position_to_show_discount_bar&#039; =&gt; &#039;woocommerce_before_add_to_cart_form&#039;,
+
+			/*==================================================
+			* Performance &amp; Caching (from Global Tab)
+			==================================================*/
+			&#039;perf_enableCaching&#039; =&gt; true,
+
+			/*==================================================
+			* Debugging &amp; Logging (from Global Tab)
+			==================================================*/
+			&#039;debug_enableMode&#039; =&gt; true,
+
+			/*==================================================
+			* Product Settings Tab
+			==================================================*/
+			&#039;product_message_format_percentage&#039; =&gt; esc_html(&#039;You save {percentage_off}%&#039;),
+			&#039;product_message_format_fixed&#039; =&gt; esc_html(&#039;You save {amount_off} per item&#039;),
+			&#039;bogo_banner_message_format&#039; =&gt; esc_html(&#039;Buy {buy_quantity} and {get_quantity} free!!!!!!&#039;),
+			&#039;product_priorityMethod&#039; =&gt; &#039;apply_highest&#039;,
+			&#039;show_discount_table&#039; =&gt; &#039;true&#039;,
+			&#039;discount_table_options&#039; =&gt; array(
+				&#039;show_header&#039; =&gt; true,
+				&#039;title&#039; =&gt; array(
+					&#039;show&#039; =&gt; true,
+					&#039;label&#039; =&gt; &#039;Title&#039;,
+				),
+				&#039;range&#039; =&gt; array(
+					&#039;show&#039; =&gt; true,
+					&#039;label&#039; =&gt; &#039;Range&#039;,
+				),
+				&#039;discount&#039; =&gt; array(
+					&#039;show&#039; =&gt; true,
+					&#039;label&#039; =&gt; &#039;Discount&#039;,
+					&#039;content&#039; =&gt; &#039;price&#039;
+				)
+			),
+
+
+			/*==================================================
+			* Cart Settings Tab
+			==================================================*/
+			&#039;cart_allowWcCouponStacking&#039; =&gt; false,
+			&#039;cart_allowCampaignStacking&#039; =&gt; false,
+			&#039;cart_quantity_message_format_percentage&#039; =&gt; esc_html(&#039;Add {remainging_quantity_for_next_offer} more and get {percentage_off}% off&#039;),
+			&#039;cart_quantity_message_format_fixed&#039; =&gt; esc_html(&#039;Add {remainging_quantity_for_next_offer} more and get {amount_off} off per item!!&#039;),
+			&#039;cart_bogo_message_format&#039; =&gt; esc_html(&#039;{title} discount applied.&#039;),
+
+			/*==================================================
+			* Advance Settings Tab
+			==================================================*/
+			&#039;advanced_deleteAllOnUninstall&#039; =&gt; false,
+		);
+		/**
+		 * Filters the default options for the plugin.
+		 *
+		 * This allows other developers or add-ons to modify the plugin&#039;s default settings
+		 * before they are returned or saved for the first time. It provides a clean way
+		 * to extend or change the core default behavior without altering the plugin&#039;s code.
+		 *
+		 * @since 1.0.0
+		 * @hook campaignbay_default_options
+		 *
+		 * @param array $default_options The array of default plugin options.
+		 * @return array The filtered array of default options.
+		 */
+		return apply_filters(CAMPAIGNBAY_OPTION_NAME . &#039;_default_options&#039;, $default_options);
+	}
+endif;
+
+if (!function_exists(&#039;wpab_campaignbay_get_options&#039;)):
+
+	/**
+	 * Get the Plugin Saved Options.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @param string $key optional option key.
+	 *
+	 * @return mixed All Options Array Or Options Value
+	 *
+	 * @author     dipta-sdd &lt;sankarsandipta@gmail.com&gt;
+	 */
+	function wpab_campaignbay_get_options($key = &#039;&#039;)
+	{
+		$options = get_option(CAMPAIGNBAY_OPTION_NAME);
+
+		$default_options = wpab_campaignbay_default_options();
+		if (!empty($key)) {
+			if (isset($options[$key])) {
+				return $options[$key];
+			}
+			return isset($default_options[$key]) ? $default_options[$key] : false;
+		} else {
+			if (!is_array($options)) {
+				$options = array();
+			}
+
+			return array_merge($default_options, $options);
+		}
+	}
+endif;
+
+if (!function_exists(&#039;wpab_campaignbay_update_options&#039;)):
+	/**
+	 * Update the Plugin Options.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @param string|array $key_or_data array of options or single option key.
+	 * @param string       $val value of option key.
+	 *
+	 * @return mixed All Options Array Or Options Value
+	 *
+	 * @author     dipta-sdd &lt;sankarsandipta@gmail.com&gt;
+	 */
+	function wpab_campaignbay_update_options($key_or_data, $val = &#039;&#039;)
+	{
+		if (is_string($key_or_data)) {
+			$options = wpab_campaignbay_get_options();
+			$options[$key_or_data] = $val;
+		} else {
+			$options = $key_or_data;
+		}
+		update_option(CAMPAIGNBAY_OPTION_NAME, $options);
+	}
+endif;
+
+
+
+if (!function_exists(&#039;wpab_campaignbay_get_white_label&#039;)):
+	/**
+	 * Get white label options for this plugin.
+	 *
+	 * @since 1.0.0
+	 * @param string $key optional option key.
+	 * @return mixed All Options Array Or Options Value
+	 * @author     dipta-sdd &lt;sankarsandipta@gmail.com&gt;
+	 */
+	function wpab_campaignbay_get_white_label($key = &#039;&#039;)
+	{
+		/**
+		 * Filters the generic white-label plugin name.
+		 *
+		 * This filter provides a simple hook to change the plugin&#039;s name for white-labeling
+		 * purposes. It&#039;s a general-purpose filter, often superseded by the more detailed
+		 * array provided in the `_white_label` filter below.
+		 *
+		 * @since 1.0.0
+		 * @hook campaignbay_white_label_plugin_name
+		 *
+		 * @param string The default plugin name string.
+		 * @return string The filtered plugin name.
+		 */
+		$plugin_name = apply_filters(
+			CAMPAIGNBAY_OPTION_NAME . &#039;_white_label_plugin_name&#039;,
+			esc_html(&#039;CampaignBay&#039;)
+		);
+
+		/**
+		 * Filters the entire array of white-label settings for the plugin.
+		 *
+		 * This is the main filter for re-branding the plugin. It allows developers to
+		 * change all branding-related text and URLs that are used to build the admin menu,
+		 * localize scripts for the React UI, and provide support links.
+		 *
+		 * @since 1.0.0
+		 * @hook campaignbay_white_label
+		 *
+		 * @param array $options An associative array of white-label settings.
+		 *    @type string $plugin_name The full, formal name of the plugin.
+		 *    @type string $short_name The shorter name used in UI elements.
+		 *    @type string $menu_label The text for the main admin menu item.
+		 *    @type string $custom_icon The URL to the icon used in custom UI components.
+		 *    @type string $menu_icon The URL to the icon for the admin menu, or a Dashicon slug.
+		 *    @type string $author_name The name of the plugin author.
+		 *    @type string $author_uri The URL for the plugin author&#039;s website.
+		 *    @type string $support_uri The URL for the plugin&#039;s support forum or page.
+		 *    @type string $docs_uri The URL for the plugin&#039;s documentation.
+		 *    @type int $position The position of the menu item in the WordPress admin sidebar.
+		 * @return array The filtered array of white-label settings.
+		 */
+		$options = apply_filters(
+			CAMPAIGNBAY_OPTION_NAME . &#039;_white_label&#039;,
+			array(
+				&#039;plugin_name&#039; =&gt; esc_html(&#039;CampaignBay - WooCommerce Smart Campaigns&#039;),
+				&#039;short_name&#039; =&gt; esc_html(&#039;CampaignBay&#039;),
+				&#039;menu_label&#039; =&gt; esc_html(&#039;CampaignBay&#039;),
+				&#039;custom_icon&#039; =&gt; CAMPAIGNBAY_URL . &#039;assets/img/dash_icon_campaign_bay_light.svg&#039;,
+				&#039;menu_icon&#039; =&gt; CAMPAIGNBAY_URL . &#039;assets/img/dash_icon_campaign_bay_light.svg&#039;,
+				&#039;author_name&#039; =&gt; &#039;WP Anchor Bay&#039;,
+				&#039;author_uri&#039; =&gt; &#039;https://wpanchorbay.com&#039;,
+				&#039;support_uri&#039; =&gt; &#039;https://wpanchorbay.com/support&#039;,
+				&#039;docs_uri&#039; =&gt; &#039;https://docs.wpanchorbay.com&#039;,
+				// &#039;menu_icon&#039;        =&gt; &#039;dashicons-awards&#039;,
+				&#039;position&#039; =&gt; 57,
+			)
+		);
+		if (!empty($key)) {
+			return $options[$key];
+		} else {
+			return $options;
+		}
+	}
+endif;
+
+
+
+if (!function_exists(&#039;wpab_campaignbay_log&#039;)) {
+
+	/**
+	 * Log messages to the debug log.
+	 *
+	 * @param mixed $message The message to log.
+	 * @param string $level The log level (e.g.,&#039;DEBUG&#039;, &#039;INFO&#039;, &#039;ERROR&#039;, &#039;NOTICE&#039;, &#039;WARNING&#039;, &#039;CRITICAL&#039;, &#039;ALERT&#039;, &#039;EMERGENCY&#039; ).
+	 * @param bool $dev_mode Whether to log messages in development mode.
+	 */
+	function wpab_campaignbay_log($message, $level = &#039;INFO&#039;, $dev_mode = true)
+	{
+		$enable_logging = wpab_campaignbay_get_options(&#039;debug_enableMode&#039;);
+		// if (!$enable_logging &amp;&amp; !defined(&#039;WP_DEBUG&#039;) &amp;&amp; !WP_DEBUG &amp;&amp; $level !== &#039;error&#039;) {
+		if (!$enable_logging &amp;&amp; ($level !== &#039;ERROR&#039; || $level !== &#039;error&#039;)) {
+			return;
+		}
+		$upload_dir = wp_upload_dir();
+		$log_dir = $upload_dir[&#039;basedir&#039;] . &#039;/&#039; . CAMPAIGNBAY_TEXT_DOMAIN . &#039;-logs/&#039;;
+
+		if (!is_dir($log_dir)) {
+			wp_mkdir_p($log_dir);
+		}
+
+		$log_file = $log_dir . &#039;plugin-log-&#039; . gmdate(&#039;Y-m-d&#039;) . &#039;.log&#039;;
+
+		$formatted_message = &#039;&#039;;
+		if (is_array($message) || is_object($message)) {
+			$formatted_message = json_encode($message);
+		} else {
+			$formatted_message = $message;
+		}
+		// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_print_r
+		$log_level = is_string($level) ? strtoupper($level) : (is_array($level) || is_object($level) ? print_r($level, true) : &#039;&#039;);
+		$log_entry = sprintf(
+			&quot;[%s] [%s]: %s\n&quot;,
+			current_time(&#039;mysql&#039;),
+			$log_level,
+			$formatted_message
+		);
+		file_put_contents($log_file, $log_entry, FILE_APPEND | LOCK_EX);
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

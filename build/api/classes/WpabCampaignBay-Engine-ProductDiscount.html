@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860255">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860255">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/wpabcampaignbay.html">WpabCampaignBay</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/wpabcampaignbay-engine.html">Engine</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    ProductDiscount
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="../packages/WPAB.html">WPAB</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="../packages/WPAB-CampaignBay.html">CampaignBay</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.39">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+</aside>
+
+            <p class="phpdocumentor-summary">The Pricing Engine class.</p>
+
+    <section class="phpdocumentor-description"><p>This class is responsible for applying discount logic by hooking into WooCommerce
+pricing filters and actions. It is the &quot;engine&quot; that drives the customer-facing changes.</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <section class="phpdocumentor-description"><p>WP Anchor Bay <a href="mailto:wpanchorbay@gmail.com">wpanchorbay@gmail.com</a></p>
+</section>
+
+                </dd>
+                        </dl>
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#property_campaigns">$campaigns</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#property_data">$data</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#property_product">$product</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#property_settings">$settings</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_apply_discounts">apply_discounts()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Calculates and applies the best discount to the product object.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_apply_discounts_on_variations">apply_discounts_on_variations()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Summary of apply_discounts_on_variations</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_calculate_earlybird_price">calculate_earlybird_price()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_calculate_fixed_price">calculate_fixed_price()</a>
+    <span>
+                        &nbsp;: float    </span>
+</dt>
+<dd>Calculates a price based on a fixed amount discount.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_calculate_percentage_price">calculate_percentage_price()</a>
+    <span>
+                        &nbsp;: float    </span>
+</dt>
+<dd>Calculates a price based on a percentage discount.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_calculate_scheduled_price">calculate_scheduled_price()</a>
+    <span>
+                        &nbsp;: float    </span>
+</dt>
+<dd>Handles the price calculation for &quot;scheduled&quot; type campaigns.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_create">create()</a>
+    <span>
+                        &nbsp;: self|null    </span>
+</dt>
+<dd>Static factory method to begin the processing chain.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_get_product">get_product()</a>
+    <span>
+                        &nbsp;: <abbr title="\WC_Product">WC_Product</abbr>    </span>
+</dt>
+<dd>Returns the final, modified product object.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method_is_better_price">is_better_price()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/WpabCampaignBay-Engine-ProductDiscount.html#method___construct">__construct()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Private constructor to prevent direct instantiation.</dd>
+
+        </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_campaigns">
+        $campaigns
+        <a href="#property_campaigns" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.46">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$campaigns</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_data">
+        $data
+        <a href="#property_data" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.48">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$data</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_product">
+        $product
+        <a href="#property_product" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.44">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$product</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_settings">
+        $settings
+        <a href="#property_settings" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.42">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$settings</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_apply_discounts">
+        apply_discounts()
+        <a href="#method_apply_discounts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.98">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">98</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Calculates and applies the best discount to the product object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">apply_discounts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p>This is the main &quot;worker&quot; method. It loops through campaigns, finds the best
+price, sets the sale price on the product object, and attaches custom
+metadata about the discount.</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash; <span class="phpdocumentor-return-value__description">Returns the instance to allow for further chaining.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_apply_discounts_on_variations">
+        apply_discounts_on_variations()
+        <a href="#method_apply_discounts_on_variations" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.262">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">262</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Summary of apply_discounts_on_variations</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">apply_discounts_on_variations</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash; <span class="phpdocumentor-return-value__description">Returns the instance to allow for further chaining.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_calculate_earlybird_price">
+        calculate_earlybird_price()
+        <a href="#method_calculate_earlybird_price" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.328">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">328</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">calculate_earlybird_price</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tier</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$base_price</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$tier</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$base_price</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_calculate_fixed_price">
+        calculate_fixed_price()
+        <a href="#method_calculate_fixed_price" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.349">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">349</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Calculates a price based on a fixed amount discount.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">calculate_fixed_price</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$base_price</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$discount_value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$base_price</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The price before discount.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$discount_value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The fixed amount to subtract.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">float</span>
+            &mdash; <span class="phpdocumentor-return-value__description">The final price, ensuring it&#039;s not below zero.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_calculate_percentage_price">
+        calculate_percentage_price()
+        <a href="#method_calculate_percentage_price" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.362">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">362</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Calculates a price based on a percentage discount.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">calculate_percentage_price</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$base_price</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$discount_value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$base_price</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The price before discount.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$discount_value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The percentage to subtract (e.g., 10 for 10%).</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">float</span>
+            &mdash; <span class="phpdocumentor-return-value__description">The final price, ensuring it&#039;s not below zero.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_calculate_scheduled_price">
+        calculate_scheduled_price()
+        <a href="#method_calculate_scheduled_price" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.313">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">313</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Handles the price calculation for &quot;scheduled&quot; type campaigns.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">calculate_scheduled_price</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$base_price</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+        <section class="phpdocumentor-description"><p>This is a sub-dispatcher that checks for percentage or fixed discounts.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$campaign</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The campaign object.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$base_price</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The price before discount.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">float</span>
+            &mdash; <span class="phpdocumentor-return-value__description">The calculated price.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_create">
+        create()
+        <a href="#method_create" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.73">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">73</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Static factory method to begin the processing chain.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Product">WC_Product</abbr>|int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$product</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self|null</span></code>
+
+        <section class="phpdocumentor-description"><p>This is the entry point. It creates an instance of the processor for a given product.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$product</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Product">WC_Product</abbr>|int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The product object or product ID.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self|null</span>
+            &mdash; <span class="phpdocumentor-return-value__description">Returns a new instance for chaining, or null if the product is invalid.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_product">
+        get_product()
+        <a href="#method_get_product" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.298">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">298</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns the final, modified product object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">get_product</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\WC_Product">WC_Product</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\WC_Product">WC_Product</abbr></span>
+            &mdash; <span class="phpdocumentor-return-value__description">The processed product object.</span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_is_better_price">
+        is_better_price()
+        <a href="#method_is_better_price" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.368">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">368</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">is_better_price</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$new_price</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$current_best_price</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$new_price</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$current_best_price</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/app/Engine/ProductDiscount.php"><a href="../files/app-app-engine-productdiscount.html#source-view.57">app/app/Engine/ProductDiscount.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Private constructor to prevent direct instantiation.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Product">WC_Product</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$product</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"><p>Use the static <code class="prettyprint">create()</code> method instead.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$product</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\WC_Product">WC_Product</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The product object to be processed.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        <section class="phpdocumentor-description"></section>
+
+                </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash; <span class="phpdocumentor-return-value__description"></span>
+    
+</article>
+            </section>
+
+    </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860255"></script>
+    <script src="../js/search.js?updated=1762860255"></script>
+</body>
+</html>

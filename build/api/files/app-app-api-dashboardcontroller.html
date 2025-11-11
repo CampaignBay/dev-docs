@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">DashboardController.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+namespace WpabCampaignBay\Api;
+
+// Exit if accessed directly.
+if (!defined(&#039;ABSPATH&#039;)) {
+	exit;
+}
+
+// Import WordPress REST API classes
+
+use DateInterval;
+use DateTime;
+use WP_Error;
+use WP_REST_Request;
+use WP_REST_Response;
+use WP_REST_Server;
+use WpabCampaignBay\Core\Campaign;
+
+/**
+ * The REST API Controller for the Dashboard.
+ *
+ * @since      1.0.0
+ * @package    WPAB_CampaignBay
+ * @author     WP Anchor Bay &lt;wpanchorbay@gmail.com&gt;
+ */
+class DashboardController extends ApiController
+{
+	/**
+	 * The instance of the DashboardController.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @var DashboardController
+	 */
+	private static $instance = null;
+
+	/**
+	 * Get the instance of the DashboardController.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return DashboardController
+	 */
+	public static function get_instance()
+	{
+		if (null === self::$instance) {
+			self::$instance = new self();
+		}
+		return self::$instance;
+	}
+
+	/**
+	 * Run the DashboardController.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function run()
+	{
+		$this-&gt;rest_base = &#039;dashboard&#039;;
+		add_action(&#039;rest_api_init&#039;, array($this, &#039;register_routes&#039;));
+	}
+
+	/**
+	 * Register the routes for the DashboardController.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function register_routes()
+	{
+		$namespace = $this-&gt;namespace . $this-&gt;version;
+
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_dashboard_data&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_collection_params(),
+				),
+			)
+		);
+	}
+
+
+	/**
+	 * Main callback to fetch all data for the dashboard.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error
+	 */
+	public function get_dashboard_data($request)
+	{
+		$period = $request-&gt;get_param(&#039;period&#039;);
+		$start_date = $request-&gt;get_param(&#039;start_date&#039;);
+		$end_date = $request-&gt;get_param(&#039;end_date&#039;);
+
+		list($current_start, $current_end, $previous_start, $previous_end) = $this-&gt;parse_date_range($period, $start_date, $end_date);
+
+		$response = array(
+			&#039;kpis&#039; =&gt; $this-&gt;get_kpi_data($current_start, $current_end, $previous_start, $previous_end),
+			&#039;charts&#039; =&gt; $this-&gt;get_chart_data($current_start, $current_end),
+			&#039;recent_activity&#039; =&gt; $this-&gt;get_recent_activity(),
+			&#039;live_and_upcoming&#039; =&gt; $this-&gt;get_live_and_upcoming_campaigns(),
+		);
+
+		return new WP_REST_Response($response, 200);
+	}
+
+	/**
+	 * Calculates KPI data for the dashboard.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param string $current_start  Start date for the current period.
+	 * @param string $current_end    End date for the current period.
+	 * @param string $previous_start Start date for the previous period.
+	 * @param string $previous_end   End date for the previous period.
+	 * @return array
+	 */
+	private function get_kpi_data($current_start, $current_end, $previous_start, $previous_end)
+	{
+		global $wpdb;
+		$logs_table = $wpdb-&gt;prefix . CAMPAIGNBAY_TEXT_DOMAIN . &#039;_logs&#039;;
+
+		// This is the new, corrected SQL query structure.
+		$sql = &quot;
+        SELECT
+            (SELECT SUM(total_discount) 
+             FROM {$logs_table} 
+             WHERE log_type = &#039;sale&#039; AND order_status IN (&#039;processing&#039;, &#039;completed&#039;) AND timestamp BETWEEN %s AND %s) as total_discount_value,
+
+            SUM(unique_orders.final_order_total) as sales_from_campaigns,
+            SUM(unique_orders.final_base_total) as base_total_for_discounts,
+            COUNT(unique_orders.order_id) as discounted_orders
+        FROM 
+            (
+                -- This subquery runs first. It finds each unique order_id,
+                -- calculates the MIN(order_total) for that order,
+                -- and takes just one value for base_total (using AVG, but MIN or MAX would also work as it&#039;s the same).
+                SELECT 
+                    order_id,
+                    MIN(order_total) as final_order_total,
+                    MAX(base_total) as final_base_total -- Using AVG as a safe way to get one value
+                FROM {$logs_table}
+                WHERE 
+                    log_type = &#039;sale&#039; 
+                    AND order_status IN (&#039;processing&#039;, &#039;completed&#039;) 
+                    AND timestamp BETWEEN %s AND %s
+                GROUP BY order_id
+            ) as unique_orders
+    &quot;;
+
+		// --- Get Current Period Data ---
+		$current_sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$sql,
+			$current_start,
+			$current_end, // First two placeholders are for the total_discount subquery
+			$current_start,
+			$current_end  // Last two placeholders are for the unique_orders subquery
+		);
+		//phpcs:ignore
+		$current_data = $wpdb-&gt;get_row($current_sql, ARRAY_A);
+
+		// --- Get Previous Period Data ---
+		$previous_sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$sql,
+			$previous_start,
+			$previous_end, // For total_discount
+			$previous_start,
+			$previous_end  // For unique_orders
+		);
+		//phpcs:ignore
+		$previous_data = $wpdb-&gt;get_row($previous_sql, ARRAY_A);
+
+		// --- Get Active Campaign Count (this part remains the same) ---
+		$campaigns_table = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+		$sql = &quot;SELECT COUNT(*) FROM {$campaigns_table} WHERE status = &#039;active&#039;&quot;;
+
+		$sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$sql,
+		);
+
+		//phpcs:ignore
+		$active_count = $wpdb-&gt;get_var($sql);
+		wpab_campaignbay_log($sql);
+		wpab_campaignbay_log($active_count);
+
+		return array(
+			&#039;active_campaigns&#039; =&gt; array(
+				&#039;value&#039; =&gt; (int) $active_count,
+			),
+			&#039;total_discount_value&#039; =&gt; array(
+				&#039;value&#039; =&gt; (float) ($current_data[&#039;total_discount_value&#039;] ?? 0),
+				&#039;base_total&#039; =&gt; (float) ($current_data[&#039;base_total_for_discounts&#039;] ?? 0),
+				&#039;change&#039; =&gt; $this-&gt;calculate_percentage_change($current_data[&#039;total_discount_value&#039;], $previous_data[&#039;total_discount_value&#039;]),
+			),
+			&#039;discounted_orders&#039; =&gt; array(
+				&#039;value&#039; =&gt; (int) ($current_data[&#039;discounted_orders&#039;] ?? 0),
+				&#039;change&#039; =&gt; $this-&gt;calculate_percentage_change($current_data[&#039;discounted_orders&#039;], $previous_data[&#039;discounted_orders&#039;]),
+			),
+			&#039;sales_from_campaigns&#039; =&gt; array(
+				&#039;value&#039; =&gt; (float) ($current_data[&#039;sales_from_campaigns&#039;] ?? 0),
+				&#039;change&#039; =&gt; $this-&gt;calculate_percentage_change($current_data[&#039;sales_from_campaigns&#039;], $previous_data[&#039;sales_from_campaigns&#039;]),
+			),
+		);
+	}
+
+	/**
+	 * Calculates Chart data for the dashboard.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param string $start_date Start date for the period.
+	 * @param string $end_date   End date for the period.
+	 * @return array
+	 */
+	private function get_chart_data($start_date, $end_date)
+	{
+		global $wpdb;
+		$logs_table = $wpdb-&gt;prefix . CAMPAIGNBAY_TEXT_DOMAIN . &#039;_logs&#039;;
+
+		// --- CORRECTED: Discount Trends (Line Chart) ---
+		// This query now uses the same robust pattern as the corrected get_kpi_data function.
+		$sql = &quot;
+        SELECT
+            -- The date for the grouping.
+            unique_orders_per_day.date,
+            
+            -- Sum the total sales and base totals FROM the clean, de-duplicated subquery.
+            SUM(unique_orders_per_day.final_order_total) as total_sales,
+            SUM(unique_orders_per_day.final_base_total) as total_base,
+            
+            -- Get the sum of all discounts in a separate, efficient subquery.
+            (SELECT SUM(total_discount) 
+             FROM {$logs_table} 
+             WHERE log_type = &#039;sale&#039; AND order_status IN (&#039;processing&#039;, &#039;completed&#039;) AND DATE(timestamp) = unique_orders_per_day.date
+            ) as total_discount_value
+        FROM
+            (
+                -- This inner subquery runs first. It creates a temporary table in memory
+                -- containing exactly one row for each unique order on each unique day.
+                SELECT 
+                    DATE(timestamp) as date,
+                    order_id,
+                    MIN(order_total) as final_order_total,
+                    MAX(base_total) as final_base_total
+                FROM {$logs_table}
+                WHERE 
+                    log_type = &#039;sale&#039; 
+                    AND order_status IN (&#039;processing&#039;, &#039;completed&#039;) 
+                    AND timestamp BETWEEN %s AND %s
+                GROUP BY DATE(timestamp), order_id
+            ) as unique_orders_per_day
+        GROUP BY unique_orders_per_day.date
+        ORDER BY unique_orders_per_day.date ASC
+    &quot;;
+
+		$trends_sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$sql,
+			$start_date,
+			$end_date
+		);
+		//phpcs:ignore
+		$discount_trends = $wpdb-&gt;get_results($trends_sql, ARRAY_A);
+
+		// Fill in missing dates with zero values (this function remains essential).
+		$discount_trends = $this-&gt;fill_missing_dates($discount_trends, $start_date, $end_date);
+
+
+		// --- Top Campaigns (Bar Chart) - This query was already correct. ---
+		$sql_top = &quot;SELECT campaign_id, SUM(total_discount) as value
+             FROM {$logs_table}
+             WHERE log_type = &#039;sale&#039; AND order_status IN (&#039;processing&#039;, &#039;completed&#039;)
+             AND timestamp BETWEEN %s AND %s
+             GROUP BY campaign_id
+             ORDER BY value DESC
+             LIMIT 5&quot;;
+
+		$top_campaigns_sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$sql_top,
+			$start_date,
+			$end_date
+		);
+		//phpcs:ignore
+		$top_campaigns = $wpdb-&gt;get_results($top_campaigns_sql, ARRAY_A);
+
+		// Add campaign titles to the results (this logic remains the same).
+		$campaigns_table = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+		foreach ($top_campaigns as &amp;$campaign_data) {
+
+			//phpcs:ignore
+			$title = $wpdb-&gt;get_var(
+				//phpcs:ignore
+				$wpdb-&gt;prepare(
+					//phpcs:ignore
+					&quot;SELECT title FROM {$campaigns_table} WHERE id = %d&quot;,
+					$campaign_data[&#039;campaign_id&#039;]
+				)
+			);
+			$campaign_data[&#039;name&#039;] = $title ?: &#039;Unknown Campaign&#039;;
+		}
+
+		return array(
+			&#039;discount_trends&#039; =&gt; $discount_trends,
+			&#039;top_campaigns&#039; =&gt; $top_campaigns,
+			&#039;most_impactful_types&#039; =&gt; $this-&gt;get_most_impactful_types($start_date, $end_date),
+		);
+	}
+
+	/**
+	 * Gets the data for the &quot;Most Impactful Types&quot; pie chart.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param string $start_date Start date for the period.
+	 * @param string $end_date   End date for the period.
+	 * @return array
+	 */
+	private function get_most_impactful_types($start_date, $end_date)
+	{
+		global $wpdb;
+		$logs_table = $wpdb-&gt;prefix . CAMPAIGNBAY_TEXT_DOMAIN . &#039;_logs&#039;;
+		$campaigns_table = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+		$success_statuses = &quot;&#039;processing&#039;, &#039;completed&#039;&quot;;
+
+		$sql = &quot;SELECT c.type, SUM(l.order_total) as total_sales
+			 FROM {$logs_table} l
+			 JOIN {$campaigns_table} c ON l.campaign_id = c.id
+			 WHERE l.log_type = &#039;sale&#039; AND l.order_status IN (&#039;processing&#039;, &#039;completed&#039;)
+			 AND l.timestamp BETWEEN %s AND %s
+			 GROUP BY c.type
+			 ORDER BY total_sales DESC&quot;;
+		$sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$sql,
+			$start_date,
+			$end_date
+		);
+
+		//phpcs:ignore
+		return $wpdb-&gt;get_results($sql, ARRAY_A);
+	}
+
+	/**
+	 * Gets the data for the &quot;Live &amp; Upcoming Campaigns&quot; widget.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @return array
+	 */
+	private function get_live_and_upcoming_campaigns()
+	{
+		global $wpdb;
+		$campaigns_table = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+		// --- Get currently active campaigns (ordered by which one will expire first) ---
+		$active_sql = &quot;SELECT id, title, end_datetime, type 
+					   FROM {$campaigns_table} 
+					   WHERE status = &#039;active&#039; 
+					   ORDER BY end_datetime ASC 
+					   LIMIT 5&quot;;
+		$sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$active_sql,
+		);
+		//phpcs:ignore
+		$active_results = $wpdb-&gt;get_results($sql, ARRAY_A);
+
+		$active_campaigns = array();
+		foreach ($active_results as $row) {
+			$active_campaigns[] = array(
+				&#039;id&#039; =&gt; (int) $row[&#039;id&#039;],
+				&#039;title&#039; =&gt; $row[&#039;title&#039;],
+				&#039;end_date&#039; =&gt; $row[&#039;end_datetime&#039;],
+				&#039;type&#039; =&gt; $row[&#039;type&#039;],
+			);
+		}
+
+		// --- Get upcoming scheduled campaigns (ordered by which one will start first) ---
+		$scheduled_sql = &quot;SELECT id, title, start_datetime, type 
+						  FROM {$campaigns_table} 
+						  WHERE status = &#039;scheduled&#039; 
+						  ORDER BY start_datetime ASC 
+						  LIMIT 5&quot;;
+		$sql = $wpdb-&gt;prepare(
+			//phpcs:ignore
+			$scheduled_sql,
+		);
+
+		//phpcs:ignore
+		$scheduled_results = $wpdb-&gt;get_results($sql, ARRAY_A);
+
+		$scheduled_campaigns = array();
+		foreach ($scheduled_results as $row) {
+			$scheduled_campaigns[] = array(
+				&#039;id&#039; =&gt; (int) $row[&#039;id&#039;],
+				&#039;title&#039; =&gt; $row[&#039;title&#039;],
+				&#039;start_date&#039; =&gt; $row[&#039;start_datetime&#039;],
+				&#039;type&#039; =&gt; $row[&#039;type&#039;],
+			);
+		}
+
+		return array(
+			&#039;active&#039; =&gt; $active_campaigns,
+			&#039;scheduled&#039; =&gt; $scheduled_campaigns,
+		);
+	}
+
+	/**
+	 * Gets the most recent activity logs, returning raw data for the frontend to format.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @return array
+	 */
+	private function get_recent_activity()
+	{
+		global $wpdb;
+		$table_name = $wpdb-&gt;prefix . CAMPAIGNBAY_TEXT_DOMAIN . &#039;_logs&#039;;
+		$sql = &quot;SELECT timestamp, extra_data, user_id, campaign_id FROM {$table_name}
+				 WHERE log_type IN ( &#039;campaign_created&#039;, &#039;campaign_updated&#039;, &#039;campaign_deleted&#039; )
+				 ORDER BY timestamp DESC
+				 LIMIT 5&quot;;
+		//phpcs:ignore
+		$results = $wpdb-&gt;get_results(
+			//phpcs:ignore
+			$wpdb-&gt;prepare(
+				//phpcs:ignore
+				$sql,
+			),
+			ARRAY_A
+		);
+
+		$activity_log = array();
+		foreach ($results as $row) {
+			$user_info = get_userdata($row[&#039;user_id&#039;]);
+			$extra_data = json_decode($row[&#039;extra_data&#039;], true);
+
+			// --- NEW: Return raw, structured data ---
+			$activity_log[] = array(
+				&#039;timestamp&#039; =&gt; $row[&#039;timestamp&#039;],
+				&#039;campaign_id&#039; =&gt; (int) $row[&#039;campaign_id&#039;],
+				&#039;campaign_title&#039; =&gt; $extra_data[&#039;title&#039;] ?? &#039;N/A&#039;,
+				&#039;action&#039; =&gt; $extra_data[&#039;message&#039;] ?? &#039;unknown&#039;, // e.g., &quot;created&quot;, &quot;updated&quot;
+				&#039;user&#039; =&gt; $user_info ? $user_info-&gt;display_name : &#039;System&#039;,
+				&#039;link&#039; =&gt; admin_url(&#039;admin.php?page=campaignbay-campaigns&amp;action=edit&amp;id=&#039; . $row[&#039;campaign_id&#039;]),
+			);
+		}
+		return $activity_log;
+	}
+
+	/**
+	 * Parses the date range parameters from the request.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param string $period Preset period (&#039;7days&#039;, &#039;30days&#039;, &#039;year&#039;).
+	 * @param string $start_date Custom start date.
+	 * @param string $end_date Custom end date.
+	 * @return array [current_start, current_end, previous_start, previous_end]
+	 */
+	private function parse_date_range($period, $start_date, $end_date)
+	{
+		$timezone = new \DateTimeZone(wp_timezone_string());
+		$end = new DateTime(&#039;now&#039;, $timezone);
+		$end-&gt;setTime(23, 59, 59);
+		$start = new DateTime(&#039;now&#039;, $timezone);
+		$start-&gt;setTime(0, 0, 0);
+
+		if (&#039;custom&#039; === $period &amp;&amp; $start_date &amp;&amp; $end_date) {
+			$start = new DateTime($start_date, $timezone);
+			$start-&gt;setTime(0, 0, 0);
+			$end = new DateTime($end_date, $timezone);
+			$end-&gt;setTime(23, 59, 59);
+		} else {
+			switch ($period) {
+				case &#039;7days&#039;:
+					$start-&gt;sub(new DateInterval(&#039;P6D&#039;));
+					break;
+				case &#039;year&#039;:
+					$start-&gt;sub(new DateInterval(&#039;P1Y&#039;));
+					break;
+				case &#039;30days&#039;:
+				default:
+					$start-&gt;sub(new DateInterval(&#039;P29D&#039;));
+					break;
+			}
+		}
+
+		$current_start_str = $start-&gt;format(&#039;Y-m-d H:i:s&#039;);
+		$current_end_str = $end-&gt;format(&#039;Y-m-d H:i:s&#039;);
+
+		$interval = $end-&gt;diff($start);
+		$days_diff = $interval-&gt;days + 1;
+
+		// Calculate previous period
+		$previous_start = clone $start;
+		$previous_start-&gt;sub(new DateInterval(&#039;P&#039; . $days_diff . &#039;D&#039;));
+		$previous_end = clone $start;
+		$previous_end-&gt;sub(new DateInterval(&#039;P1D&#039;));
+		$previous_end-&gt;setTime(23, 59, 59);
+
+		return array(
+			$current_start_str,
+			$current_end_str,
+			$previous_start-&gt;format(&#039;Y-m-d H:i:s&#039;),
+			$previous_end-&gt;format(&#039;Y-m-d H:i:s&#039;),
+		);
+	}
+
+	/**
+	 * Calculates percentage change between two values.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param float $current Current value.
+	 * @param float $previous Previous value.
+	 * @return float Percentage change.
+	 */
+	private function calculate_percentage_change($current, $previous)
+	{
+		if (0 == $previous || $previous === null || $previous === &#039;&#039; || $previous == false || $previous == 0) {
+			return $current &gt; 0 ? 100 : 0;
+		}
+		return round((($current - $previous) / $previous) * 100, 2);
+	}
+
+	/**
+	 * Fills in missing dates with zero values for chart data.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @param array  $data Array of data with date keys.
+	 * @param string $start_date Start date.
+	 * @param string $end_date End date.
+	 * @return array Data with missing dates filled.
+	 */
+	private function fill_missing_dates($data, $start_date, $end_date)
+	{
+		$start = new DateTime($start_date);
+		$end = new DateTime($end_date);
+		$filled_data = array();
+		$data_by_date = array();
+
+		// Index existing data by date
+		foreach ($data as $row) {
+			$data_by_date[$row[&#039;date&#039;]] = $row;
+		}
+
+		// Fill in all dates in range
+		$current = clone $start;
+		while ($current &lt;= $end) {
+			$date_str = $current-&gt;format(&#039;Y-m-d&#039;);
+			if (isset($data_by_date[$date_str])) {
+				$filled_data[] = $data_by_date[$date_str];
+			} else {
+				$filled_data[] = array(
+					&#039;date&#039; =&gt; $date_str,
+					&#039;total_discount_value&#039; =&gt; 0,
+					&#039;total_base&#039; =&gt; 0,
+					&#039;total_sales&#039; =&gt; 0,
+				);
+			}
+			$current-&gt;add(new DateInterval(&#039;P1D&#039;));
+		}
+
+		return $filled_data;
+	}
+
+	/**
+	 * Retrieves the query params for collections.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return array Collection parameters.
+	 */
+	public function get_collection_params()
+	{
+		$params = parent::get_collection_params();
+
+		$params[&#039;period&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Time period for the dashboard data.&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;default&#039; =&gt; &#039;30days&#039;,
+			&#039;enum&#039; =&gt; array(&#039;7days&#039;, &#039;30days&#039;, &#039;year&#039;, &#039;custom&#039;),
+		);
+
+		$params[&#039;start_date&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Custom start date (required when period is custom).&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;format&#039; =&gt; &#039;date&#039;,
+		);
+
+		$params[&#039;end_date&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Custom end date (required when period is custom).&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;format&#039; =&gt; &#039;date&#039;,
+		);
+
+		return $params;
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

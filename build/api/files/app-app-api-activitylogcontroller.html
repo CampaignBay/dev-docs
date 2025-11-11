@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Campaignbay Developer Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../images/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../images/favicon-180x180.png" />
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css?updated=1762860254">
+    <link rel="stylesheet" href="../css/template.css?updated=1762860254">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KCYZ2CYMS', {
+		'content_group' : 'Campaignbay Developer Docs',
+	});
+</script>
+        <script src="../js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-top-header">
+    <section class="phpdocumentor-section">
+        <div class="site-branding">
+            <a class="site-logo" href="../index.html"><img src="../images/logo.png" alt="CampaignBay" /></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+                <li><a href="https://docs.wpanchorbay.com/">Documentation</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<div class="phpdocumentor-header">
+    <section class="phpdocumentor-section">
+        <h1 class="phpdocumentor-title"><a href="../index.html">Campaignbay Developer Docs</a></h1>
+        <section class="phpdocumentor-search">
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search (click ESC to close search results)</span>
+        <input id="autoComplete" tabindex="1" type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading..." disabled />
+    </label>
+</section>
+
+    </section>
+</div>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/wpabcampaignbay.html"><abbr title="\WpabCampaignBay">WpabCampaignBay</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/wpabcampaignbay-admin.html"><abbr title="\WpabCampaignBay\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-api.html"><abbr title="\WpabCampaignBay\Api">Api</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-core.html"><abbr title="\WpabCampaignBay\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-data.html"><abbr title="\WpabCampaignBay\Data">Data</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-engine.html"><abbr title="\WpabCampaignBay\Engine">Engine</abbr></a></li>
+                                            <li><a href="../namespaces/wpabcampaignbay-helper.html"><abbr title="\WpabCampaignBay\Helper">Helper</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/campaignbay.html"><abbr title="\campaignbay">campaignbay</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/WPAB.html"><abbr title="\WPAB">WPAB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/WPAB-CampaignBay.html"><abbr title="\WPAB\CampaignBay">CampaignBay</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks Reference</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">ActivityLogController.php</h2>
+
+                
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+namespace WpabCampaignBay\Api;
+
+// Exit if accessed directly.
+if (!defined(&#039;ABSPATH&#039;)) {
+	exit;
+}
+
+// Import WordPress REST API classes
+
+use WP_Error;
+use WP_REST_Request;
+use WP_REST_Response;
+use WP_REST_Server;
+
+/**
+ * The REST API Controller for Activity Logs.
+ *
+ * @since      1.0.0
+ * @package    WPAB_CampaignBay
+ * @author     WP Anchor Bay &lt;wpanchorbay@gmail.com&gt;
+ */
+class ActivityLogController extends ApiController
+{
+
+	/**
+	 * The single instance of the class.
+	 *
+	 * @since 1.0.0
+	 * @access private
+	 * @var ActivityLogController
+	 */
+	private static $instance = null;
+
+	/**
+	 * Gets an instance of this object.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return ActivityLogController
+	 */
+	public static function get_instance()
+	{
+		// Store the instance locally to avoid private static replication.
+		if (null === self::$instance) {
+			self::$instance = new self();
+		}
+		return self::$instance;
+	}
+
+	/**
+	 * Initialize the class.
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function run()
+	{
+		$this-&gt;rest_base = &#039;activity-logs&#039;;
+		add_action(&#039;rest_api_init&#039;, array($this, &#039;register_routes&#039;));
+	}
+
+	/**
+	 * Register the routes for the objects of the controller.
+	 * @since 1.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function register_routes()
+	{
+		$namespace = $this-&gt;namespace . $this-&gt;version;
+
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base,
+			array(
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_items&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+					&#039;args&#039; =&gt; $this-&gt;get_collection_params(),
+				),
+			)
+		);
+
+		register_rest_route(
+			$namespace,
+			&#039;/&#039; . $this-&gt;rest_base . &#039;/(?P&lt;id&gt;[\d]+)&#039;,
+			array(
+				&#039;args&#039; =&gt; array(
+					&#039;id&#039; =&gt; array(
+						&#039;description&#039; =&gt; __(&#039;Unique identifier for the log entry.&#039;, &#039;campaignbay&#039;),
+						&#039;type&#039; =&gt; &#039;integer&#039;,
+						&#039;required&#039; =&gt; true,
+					),
+				),
+				array(
+					&#039;methods&#039; =&gt; WP_REST_Server::READABLE,
+					&#039;callback&#039; =&gt; array($this, &#039;get_item&#039;),
+					&#039;permission_callback&#039; =&gt; array($this, &#039;get_item_permissions_check&#039;),
+				),
+			)
+		);
+	}
+
+	/**
+	 * Get a collection of activity log entries.
+	 * 
+	 * @query SELECT 
+	 *		    l.log_id,
+	 *	      	l.campaign_id,
+	 *	      	l.order_id,
+	 *	      	l.user_id,
+	 *	      	l.log_type,
+	 *	      	l.base_total,
+	 *	      	l.total_discount,
+	 *	      	l.order_total,
+	 *	      	l.order_status,
+	 *	      	l.extra_data,
+	 *	      	l.timestamp,
+	 *	      	c.title as campaign_title,
+	 *	      	c.type
+	 *	      FROM wp_campaignbay_logs l
+	 *	      LEFT JOIN wp_campaignbay_campaigns c ON l.campaign_id = c.id 
+	 *	      WHERE 1=1 AND 
+	 *	      l.log_type IN ( &quot;campaign_created&quot;, &quot;campaign_updated&quot;, &quot;campaign_deleted&quot; ) 
+	 *	      ORDER BY l.timestamp DESC LIMIT 10 OFFSET 0
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function get_items($request)
+	{
+		global $wpdb;
+		$logs_table = $wpdb-&gt;prefix . &#039;campaignbay_logs&#039;;
+		$campaigns_table = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+		// Get pagination parameters
+		$page = $request-&gt;get_param(&#039;page&#039;) ?: 1;
+		$per_page = $request-&gt;get_param(&#039;per_page&#039;) ?: 20;
+		$offset = ($page - 1) * $per_page;
+
+		// Get sorting parameters
+		$orderby = $request-&gt;get_param(&#039;orderby&#039;) ?: &#039;timestamp&#039;;
+		$order = $request-&gt;get_param(&#039;order&#039;) ?: &#039;desc&#039;;
+
+		// Validate orderby parameter
+		$allowed_orderby = array(&#039;timestamp&#039;, &#039;log_type&#039;, &#039;campaign_title&#039;, &#039;order_id&#039;, &#039;user_name&#039;, &#039;base_total&#039;, &#039;total_discount&#039;, &#039;order_total&#039;);
+		if (!in_array($orderby, $allowed_orderby, true)) {
+			$orderby = &#039;timestamp&#039;;
+		}
+
+		// Validate order parameter
+		$order = strtoupper($order);
+		if (!in_array($order, array(&#039;ASC&#039;, &#039;DESC&#039;), true)) {
+			$order = &#039;DESC&#039;;
+		}
+
+		// Get filter parameters
+		$log_type = $request-&gt;get_param(&#039;log_type&#039;);
+		$campaign_id = $request-&gt;get_param(&#039;campaign_id&#039;);
+		$order_status = $request-&gt;get_param(&#039;order_status&#039;);
+		$date_from = $request-&gt;get_param(&#039;date_from&#039;);
+		$date_to = $request-&gt;get_param(&#039;date_to&#039;);
+
+		// Build WHERE clause
+		$sql = &quot;SELECT 
+			l.log_id,
+			l.campaign_id,
+			l.order_id,
+			l.user_id,
+			l.log_type,
+			l.base_total,
+			l.total_discount,
+			l.order_total,
+			l.order_status,
+			l.extra_data,
+			l.timestamp,
+			c.title as campaign_title,
+			c.type
+		FROM {$logs_table} l
+		LEFT JOIN {$campaigns_table} c ON l.campaign_id = c.id WHERE 1=1&quot;;
+		$count_sql = &quot;SELECT COUNT(*) FROM {$logs_table} l WHERE 1=1&quot;;
+		$query_params = array();
+
+		if (!empty($log_type)) {
+			if ($log_type === &#039;activity&#039;) {
+				$sql .= &#039; AND l.log_type IN ( &quot;campaign_created&quot;, &quot;campaign_updated&quot;, &quot;campaign_deleted&quot; )&#039;;
+				$count_sql .= &#039; AND l.log_type IN ( &quot;campaign_created&quot;, &quot;campaign_updated&quot;, &quot;campaign_deleted&quot; )&#039;;
+			} else {
+				$sql .= &#039; AND l.log_type = %s&#039;;
+				$count_sql .= &#039; AND l.log_type = %s&#039;;
+				$query_params[] = $log_type;
+			}
+		}
+
+		if (!empty($campaign_id)) {
+			$sql .= &#039; AND l.campaign_id = %d&#039;;
+			$count_sql .= &#039; AND l.campaign_id = %d&#039;;
+			$query_params[] = (int) $campaign_id;
+		}
+
+		if (!empty($order_status)) {
+			$sql .= &#039; AND l.order_status = %s&#039;;
+			$count_sql .= &#039; AND l.order_status = %s&#039;;
+			$query_params[] = $order_status;
+		}
+
+		if (!empty($date_from)) {
+			$sql .= &#039; AND l.timestamp &gt;= %s&#039;;
+			$count_sql .= &#039; AND l.timestamp &gt;= %s&#039;;
+			$query_params[] = $date_from . &#039; 00:00:00&#039;;
+		}
+
+		if (!empty($date_to)) {
+			$sql .= &#039; AND l.timestamp &lt;= %s&#039;;
+			$count_sql .= &#039; AND l.timestamp &lt;= %s&#039;;
+			$query_params[] = $date_to . &#039; 23:59:59&#039;;
+		}
+
+		//phpcs:ignore
+		$count_sql = $wpdb-&gt;prepare($count_sql, $query_params);
+
+
+		// Build ORDER BY clause
+		switch ($orderby) {
+			case &#039;campaign_title&#039;:
+				$sql .= &#039; ORDER BY c.title &#039;;
+				break;
+			case &#039;user_name&#039;:
+				$sql .= &#039; ORDER BY l.user_id &#039;;
+				break;
+			case &#039;order_id&#039;:
+				$sql .= &#039; ORDER BY l.order_id &#039;;
+				break;
+			case &#039;base_total&#039;:
+				$sql .= &#039; ORDER BY l.base_total &#039;;
+				break;
+			case &#039;total_discount&#039;:
+				$sql .= &#039; ORDER BY l.total_discount &#039;;
+				break;
+			case &#039;order_total&#039;:
+				$sql .= &#039; ORDER BY l.order_total &#039;;
+				break;
+			case &#039;log_type&#039;:
+				$sql .= &#039; ORDER BY l.log_type &#039;;
+				break;
+			case &#039;timestamp&#039;:
+			default:
+				$sql .= &#039; ORDER BY l.timestamp &#039;;
+				break;
+		}
+
+		$sql .= $order === &#039;ASC&#039; ? &#039;ASC&#039; : &#039;DESC&#039;;
+
+
+		//phpcs:ignore
+		$total_items = $wpdb-&gt;get_var($count_sql);
+
+
+		$sql .= &quot; LIMIT %d OFFSET %d&quot;;
+		$query_params[] = $per_page;
+		$query_params[] = $offset;
+
+		//phpcs:ignore
+		$data_sql = $wpdb-&gt;prepare($sql, $query_params);
+
+		//phpcs:ignore
+		$results = $wpdb-&gt;get_results($data_sql, ARRAY_A);
+
+		// Prepare the response data
+		$data = array();
+		foreach ($results as $row) {
+			$data[] = $this-&gt;prepare_item_for_response($row, $request);
+		}
+
+		// Calculate pagination info
+		$total_pages = ceil($total_items / $per_page);
+
+		$response = new WP_REST_Response($data, 200);
+		$response-&gt;header(&#039;X-WP-Total&#039;, $total_items);
+		$response-&gt;header(&#039;X-WP-TotalPages&#039;, $total_pages);
+
+		return $response;
+	}
+
+
+
+	/**
+	 * Get a single activity log entry.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function get_item($request)
+	{
+		global $wpdb;
+		$logs_table = $wpdb-&gt;prefix . &#039;campaignbay_logs&#039;;
+		$campaigns_table = $wpdb-&gt;prefix . &#039;campaignbay_campaigns&#039;;
+
+		$log_id = $request-&gt;get_param(&#039;id&#039;);
+
+		$sql = &quot;SELECT 
+			l.log_id,
+			l.campaign_id,
+			l.order_id,
+			l.user_id,
+			l.log_type,
+			l.base_total,
+			l.total_discount,
+			l.order_total,
+			l.order_status,
+			l.extra_data,
+			l.timestamp,
+			c.title as campaign_title,
+			c.type
+		FROM {$logs_table} l
+		LEFT JOIN {$campaigns_table} c ON l.campaign_id = c.id
+		WHERE l.log_id = %d&quot;;
+
+		//phpcs:ignore
+		$result = $wpdb-&gt;get_row($wpdb-&gt;prepare($sql, $log_id), ARRAY_A);
+
+		if (!$result) {
+			return new WP_Error(&#039;rest_log_not_found&#039;, __(&#039;Log entry not found.&#039;, &#039;campaignbay&#039;), array(&#039;status&#039; =&gt; 404));
+		}
+
+		$data = $this-&gt;prepare_item_for_response($result, $request);
+		return new WP_REST_Response($data, 200);
+	}
+
+	/**
+	 * Prepare a single log entry for response.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param array           $log_entry Log entry data.
+	 * @param WP_REST_Request $request   Request object.
+	 * @return array Prepared log entry data.
+	 */
+	public function prepare_item_for_response($log_entry, $request)
+	{
+		$data = array(
+			&#039;id&#039; =&gt; (int) $log_entry[&#039;log_id&#039;],
+			&#039;campaign_id&#039; =&gt; (int) $log_entry[&#039;campaign_id&#039;],
+			&#039;order_id&#039; =&gt; (int) $log_entry[&#039;order_id&#039;],
+			&#039;user_id&#039; =&gt; (int) $log_entry[&#039;user_id&#039;],
+			&#039;log_type&#039; =&gt; $log_entry[&#039;log_type&#039;],
+			&#039;base_total&#039; =&gt; (float) $log_entry[&#039;base_total&#039;],
+			&#039;total_discount&#039; =&gt; (float) $log_entry[&#039;total_discount&#039;],
+			&#039;order_total&#039; =&gt; (float) $log_entry[&#039;order_total&#039;],
+			&#039;order_status&#039; =&gt; $log_entry[&#039;order_status&#039;],
+			&#039;extra_data&#039; =&gt; !empty($log_entry[&#039;extra_data&#039;]) ? json_decode($log_entry[&#039;extra_data&#039;], true) : null,
+			&#039;timestamp&#039; =&gt; $log_entry[&#039;timestamp&#039;],
+			&#039;campaign_title&#039; =&gt; $log_entry[&#039;campaign_title&#039;],
+			&#039;type&#039; =&gt; $log_entry[&#039;type&#039;],
+		);
+
+		// Add user information if user_id exists
+		if ($log_entry[&#039;user_id&#039;] &gt; 0) {
+			$user = get_user_by(&#039;id&#039;, $log_entry[&#039;user_id&#039;]);
+			if ($user) {
+				$data[&#039;user_name&#039;] = $user-&gt;display_name;
+				$data[&#039;user_email&#039;] = $user-&gt;user_email;
+			}
+		}
+
+		// Add order information if order_id exists
+		if ($log_entry[&#039;order_id&#039;] &gt; 0) {
+			$order = wc_get_order($log_entry[&#039;order_id&#039;]);
+			if ($order) {
+				$data[&#039;order_number&#039;] = $order-&gt;get_order_number();
+				$data[&#039;order_status_label&#039;] = wc_get_order_status_name($log_entry[&#039;order_status&#039;]);
+			}
+		}
+
+		// Add campaign edit link
+		if ($log_entry[&#039;campaign_id&#039;] &gt; 0) {
+			$data[&#039;campaign_edit_link&#039;] = admin_url(&#039;admin.php?page=campaignbay-campaigns&amp;action=edit&amp;id=&#039; . $log_entry[&#039;campaign_id&#039;]);
+		}
+
+		// Add order edit link
+		if ($log_entry[&#039;order_id&#039;] &gt; 0) {
+			$data[&#039;order_edit_link&#039;] = admin_url(&#039;post.php?post=&#039; . $log_entry[&#039;order_id&#039;] . &#039;&amp;action=edit&#039;);
+		}
+
+		return $data;
+	}
+
+	/**
+	 * Retrieves the query params for collections.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @return array Collection parameters.
+	 */
+	public function get_collection_params()
+	{
+		$params = parent::get_collection_params();
+
+		$params[&#039;per_page&#039;][&#039;default&#039;] = 20;
+		$params[&#039;per_page&#039;][&#039;maximum&#039;] = 100;
+
+		$params[&#039;orderby&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Sort collection by object attribute.&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;default&#039; =&gt; &#039;timestamp&#039;,
+			&#039;enum&#039; =&gt; array(&#039;timestamp&#039;, &#039;log_type&#039;, &#039;campaign_title&#039;, &#039;order_id&#039;, &#039;user_name&#039;, &#039;base_total&#039;, &#039;total_discount&#039;, &#039;order_total&#039;),
+		);
+
+		$params[&#039;order&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Order sort attribute ascending or descending.&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;default&#039; =&gt; &#039;desc&#039;,
+			&#039;enum&#039; =&gt; array(&#039;asc&#039;, &#039;desc&#039;),
+		);
+
+		$params[&#039;log_type&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Filter by log type.&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;enum&#039; =&gt; array(&#039;activity&#039;, &#039;sale&#039;, &#039;campaign_created&#039;, &#039;campaign_updated&#039;, &#039;campaign_deleted&#039;),
+		);
+
+		$params[&#039;campaign_id&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Filter by campaign ID.&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;integer&#039;,
+		);
+
+		$params[&#039;order_status&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Filter by order status.&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;enum&#039; =&gt; array(&#039;pending&#039;, &#039;processing&#039;, &#039;on-hold&#039;, &#039;completed&#039;, &#039;cancelled&#039;, &#039;refunded&#039;, &#039;failed&#039;),
+		);
+
+		$params[&#039;date_from&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Filter logs from this date (Y-m-d format).&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;format&#039; =&gt; &#039;date&#039;,
+		);
+
+		$params[&#039;date_to&#039;] = array(
+			&#039;description&#039; =&gt; __(&#039;Filter logs to this date (Y-m-d format).&#039;, &#039;campaignbay&#039;),
+			&#039;type&#039; =&gt; &#039;string&#039;,
+			&#039;format&#039; =&gt; &#039;date&#039;,
+		);
+
+		return $params;
+	}
+
+	/**
+	 * Check if a given request has access to get items.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return true|WP_Error True if the request has read access, WP_Error object otherwise.
+	 */
+	public function get_item_permissions_check($request)
+	{
+		return current_user_can(&#039;manage_woocommerce&#039;);
+	}
+
+	/**
+	 * Check if a given request has access to update items.
+	 *
+	 * @since 1.0.0
+	 * @access public
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return true|WP_Error True if the request has update access, WP_Error object otherwise.
+	 */
+	public function update_item_permissions_check($request)
+	{
+		return current_user_can(&#039;manage_woocommerce&#039;);
+	}
+}</code></pre>
+            </article>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <footer class="phpdocumentor phpdocumentor-footer">
+    <div class="phpdocumentor-section">
+        <span>Campaignbay developer documentation generated by <a href="http://www.phpdoc.org/">phpDocumentor</a> on November 11th, 2025 at 11:24 am.</span>
+    </div>
+</footer>
+
+    <script>
+        cssVars({});
+    </script>
+    <script>
+        var searchParams = {
+            'searchIndex': '..\/js\/searchIndex.json'
+        };
+    </script>
+    <script src="../js/searchIndex.js?updated=1762860254"></script>
+    <script src="../js/search.js?updated=1762860254"></script>
+</body>
+</html>

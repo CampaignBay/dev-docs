@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+  <title>Campaignbay Developer Docs</title>
+  <files>
+    <directory>app/</directory>
+  </files>
+</phpdoc>

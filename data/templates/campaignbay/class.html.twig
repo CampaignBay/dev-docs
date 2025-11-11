@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block javascripts %}
+    <script src="{{ path('js/prism.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+{% endblock %}
+
+{% block content %}
+    {% include 'components/breadcrumbs.html.twig' %}
+
+    <article class="phpdocumentor-element -class">
+        {{ include('components/class-title.html.twig') }}
+        {{ include('components/element-found-in.html.twig') }}
+        {{ include('components/element-header.html.twig') }}
+
+        {{ include('components/constants.html.twig') }}
+        {{ include('components/properties.html.twig') }}
+        {{ include('components/methods.html.twig') }}
+    </article>
+{% endblock %}
