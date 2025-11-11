@@ -35,14 +35,10 @@ if [ $# -eq 1 ]; then
     # Use provided source directory
     CAMPAIGNBAY_DIR="$1"
     echo "📁 Using provided source directory: $CAMPAIGNBAY_DIR"
-elif [ -d "campaignbay" ]; then
-    # Use existing campaignbay directory in current project
-    CAMPAIGNBAY_DIR="campaignbay"
-    echo "📁 Found existing campaignbay directory in current project."
 else
     # Prompt user for CampaignBay directory
     echo "📁 Please provide the path to your CampaignBay directory."
-    echo "Example: /Users/YourUserName/campaignbay/plugins/campaignbay"
+    echo "Example: ../campaignbay/app"
     echo ""
     read -p "Enter CampaignBay directory path: " CAMPAIGNBAY_DIR
 fi
@@ -56,22 +52,13 @@ fi
 
 echo "📁 Using CampaignBay plugin directory: $CAMPAIGNBAY_DIR"
 
-# Copy files if we're using an external path (not the existing campaignbay directory)
-if [ "$CAMPAIGNBAY_DIR" != "campaignbay" ]; then
-    # Always remove existing campaignbay directory when using external source
-    if [ -d "campaignbay" ]; then
-        echo "🗑️  Removing existing campaignbay directory..."
-        rm -rf campaignbay
-    fi
 
-    echo "📁 Copying CampaignBay files..."
-    mkdir -p app
+echo "📁 Copying CampaignBay files..."
+mkdir -p app
 
-    # Copy only the directories we want for documentation
-    cp -r "$CAMPAIGNBAY_DIR" app/ 2>/dev/null || true
-else
-    echo "📁 Using existing campaignbay directory in project."
-fi
+# Copy only the directories we want for documentation
+cp -r "$CAMPAIGNBAY_DIR" app/ 2>/dev/null || true
+
 
 # Generate documentation
 echo "🔧 Generating documentation from local CampaignBay source..."
