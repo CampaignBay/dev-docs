@@ -20,11 +20,11 @@
     --text-xxxxxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
 
     /* Colors */
-    --primary-color: #720eec;
-    --primary-color-darken: #3c087e;
-    --primary-color-darker:rgb(48, 7, 101);
-    --primary-color-lighten: #b884f8;
-    --primary-color-lighter: #e3cefc;
+    --primary-color: #f02a74;
+    --primary-color-darken: #aa0c46ff;
+    --primary-color-darker: #72032cff;
+    --primary-color-lighten: #f884abff;
+    --primary-color-lighter: #fccee9ff;
     --dark-gray: #d1d1d1;
     --light-gray: #f0f0f0;
 
