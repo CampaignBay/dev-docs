@@ -13,7 +13,7 @@ class HookDocsGenerator
     /**
      * Source path.
      */
-    protected const SOURCE_PATH = './app/';
+    protected const SOURCE_PATH = './campaignbay/';
 
     /**
      * Hooks template path.

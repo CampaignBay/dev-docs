@@ -54,10 +54,10 @@ echo "📁 Using CampaignBay plugin directory: $CAMPAIGNBAY_DIR"
 
 
 echo "📁 Copying CampaignBay files..."
-mkdir -p app
+mkdir -p campaignbay
 
 # Copy only the directories we want for documentation
-cp -r "$CAMPAIGNBAY_DIR" app/ 2>/dev/null || true
+cp -r "$CAMPAIGNBAY_DIR" campaignbay/ 2>/dev/null || true
 
 
 # Generate documentation

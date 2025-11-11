@@ -2,6 +2,6 @@
 <phpdoc>
   <title>Campaignbay Developer Docs</title>
   <files>
-    <directory>app/</directory>
+    <directory>campaignbay/</directory>
   </files>
 </phpdoc>
